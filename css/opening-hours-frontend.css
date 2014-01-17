@@ -1,0 +1,57 @@
+/* Override the CSS for the Opening Hours plugin
+**
+** see http://wordpress.org/plugins/wp-opening-hours/
+*/
+
+.highlighted {
+    color: #90af45;
+}
+
+.op-overview-set.closed {
+    color: #ef6465;
+}
+
+/* Opening Hours Overview Widget */
+.op-overview-table {
+    font-size: 0.85em;
+}
+/* Opening Hours Holidays Widget */
+.op-holidays-table {
+    font-size: 0.85em;
+}
+
+/* Opening Hours Status Widget */
+.op-status-label {
+    font-size: 1em;
+    font-weight: normal;
+    padding-left: 25px;
+    position: relative;
+    border-radius: 2em;
+}
+
+.op-status-label.open {
+    color: white;
+    background: none;
+    background-color: #90af45;
+}
+
+.op-status-label.closed {
+    color: white;
+    background: none;
+    background-color: #ef6465;
+}
+
+.op-status-label.closed:before {
+    position:absolute;
+    left:7px;
+    font-family: Ionicons;
+    content: "\f12a";
+}
+
+.op-status-label.open:before {
+    position:absolute;
+    left:7px;
+    font-family: Ionicons;
+    content: "\f122";
+}
+

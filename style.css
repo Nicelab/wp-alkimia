@@ -1,0 +1,25 @@
+/*
+Theme Name: wp-Kube
+Theme URI: http://wordpress.org/themes/wp-kube
+Author: Miniwark
+Author URI: https://github.com/miniwark
+Description: Theme based on the Kube CSS framwork by imperavi.com and Ionicons fonts icons by ionicons.com
+Version: 0.3
+License: Expat/MIT Licence for the theme and ionicons icons, Free licence for the Kube CSS framework
+License URI: http://directory.fsf.org/wiki/License:Expat
+Tags: White, two-columns, right-sidebar, translation-ready
+Text Domain: wp-kube
+*/
+
+/* The default Kube theme */
+@import url("./css/kube.min.css");
+
+/* Our Kube theme modifications */
+@import url("./css/master.css");
+
+/* Font icons from ionicons.com */
+@import url("./css/ionicons.css");
+
+/* Our CSS for the Opening Hours plugin*/
+@import url("./css/opening-hours-frontend.css");
+
