@@ -1,5 +1,9 @@
 <?php
-/* The Template for displaying all single posts */
+/* The Template for displaying all single posts
+ *
+ * @package wp-kube
+ * @since wp-kube 1.0
+ */
 
 get_header();
 ?>
@@ -13,7 +17,7 @@ get_header();
     if (have_posts()):
         while (have_posts()):
             the_post();
-            get_template_part('content', 'single'); 
+            get_template_part('content', 'single');
             ?>
             <ul class="pagination">
               <li class="pagination-older"><?php previous_post_link('%link', '&laquo; %title');?></li>

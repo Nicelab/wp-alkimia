@@ -1,7 +1,11 @@
 <?php
-/* The main loop file */
+/* The main loop file
+ *
+ * @package wp-kube
+ * @since wp-kube 1.0
+ */
 ?>
-<article class="unit-75">
+<section class="unit-75">
   <?php
   if (have_posts()):
       $first_post = true;
@@ -17,4 +21,4 @@
     <li class="pagination-older"><?php previous_posts_link();?></li>
     <li class="pagination-newest pagination-pull"><?php next_posts_link();?></li>
   </ul>
-</article>
+</section>

@@ -1,16 +1,18 @@
 <?php
-/* The main template file 
-** make use of <--more--> tag instead of the_excerpt
-** fully display the more recent post
-*/
+/* The main template file
+ *
+ * @package wp-kube
+ * @since wp-kube 1.0
+ */
+
+// make use of <--more--> tag instead of the_excerpt, fully display the more recent post
 
 get_header();
 ?>
-  <!-- main section -->
-  <section class="units-row">
-
+  <!-- main wrapper -->
+  <div class="units-row">
     <!-- main content -->
-    <article class="unit-75">
+    <section class="unit-75">
       <?php
       if (have_posts()):
           $first_post = true;
@@ -34,10 +36,10 @@ get_header();
         <li class="pagination-older"><?php previous_posts_link();?></li>
         <li class="pagination-newest pagination-pull"><?php next_posts_link();?></li>
       </ul>
-    </article>
+    </section>
     <!-- right widgets sidebar -->
     <?php get_sidebar(); ?>
 
-  </section>
+  </div>
 
 <?php get_footer(); ?>

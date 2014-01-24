@@ -1,3 +1,8 @@
+/**
+ * Theme Name: wp-kube
+ * Description: Theme additions to the default Kube CSS
+ */
+
 /* =Typography
 -----------------------------------------------------------------------------*/
 body {
@@ -173,6 +178,36 @@ article footer {
     margin: 5px;
 }
 
+/* Various Wordpress required & recomended styles */
+/*
+.wp-caption {
+}
+.wp-caption-text {
+}
+.sticky {
+}
+.gallery-caption {
+}
+.bypostauthor {
+}
+.alignright {
+    text-align: right;
+}
+.alignleft {
+    text-align: left;
+}
+.aligncenter {
+    text-align: center;
+}
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+*/
 
 /* =Footer
 -----------------------------------------------------------------------------*/

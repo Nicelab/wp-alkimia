@@ -1,12 +1,16 @@
 <?php
-/* The template for displaying all pages */
+/* The template for displaying all pages
+ *
+ * @package wp-kube
+ * @since wp-kube 1.0
+ */
 
 get_header();
 ?>
-  <!-- main section -->
-  <section class="units-row">
+  <!-- main wrapper -->
+  <div class="units-row">
     <!-- main content -->
-    <article class="unit-75">
+    <section class="unit-75">
     <?php get_template_part('breadcrumb'); ?>
     <?php
     if (have_posts()):
@@ -19,11 +23,11 @@ get_header();
         endwhile;
     endif;
     ?>
-    </article>
+    </section>
 
     <!-- right widgets sidebar -->
     <?php get_sidebar(); ?>
 
-  </section>
+  </div>
 
 <?php get_footer(); ?>

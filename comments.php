@@ -1,15 +1,18 @@
 <?php
-/* The template for for displaying comments */
+/* The template for for displaying comments
+ *
+ * @package wp-kube
+ * @since wp-kube 1.0
+ */
 
-if (post_password_required()) {
+if (post_password_required()):
     return;
-}
-?>
+endif;
 
-<?php if (have_comments()): ?>
+if (have_comments()): ?>
 <!-- comments -->
 <div id="comments">
-  <h3><?php _e('Comments') ?></h3>
+  <h3><?php _e('Comments', 'wp-kube') ?></h3>
 
   <ol>
   <?php
@@ -22,7 +25,7 @@ if (post_password_required()) {
   </ol>
 
   <?php if (! comments_open() && get_comments_number()): ?>
-  <p class="no-comments"><?php _e('Comments are closed.'); ?></p>
+  <p class="no-comments"><?php _e('Comments are closed.', 'wp-kube'); ?></p>
   <?php endif; ?>
 </div>
 
@@ -32,7 +35,7 @@ if (post_password_required()) {
   $comment_args = array(
       'logged_in_as' => '',
       'comment_notes_before' => '',
-      'comment_notes_after' => '<p class="comment-notes-after">'. __('Your email address will not be published.') .'</p>',
+      'comment_notes_after' => '<p class="comment-notes-after">'. __('Your email address will not be published.', 'wp-kube') .'</p>',
   );
   ob_start();
   comment_form($comment_args);
@@ -42,4 +45,3 @@ if (post_password_required()) {
   $form = str_replace('id="submit"','class="btn"', $form);
   echo $form;
 ?>
-

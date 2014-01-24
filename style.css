@@ -1,15 +1,15 @@
-/*
-Theme Name: wp-Kube
-Theme URI: http://wordpress.org/themes/wp-kube
-Author: Miniwark
-Author URI: https://github.com/miniwark
-Description: Theme based on the Kube CSS framwork by imperavi.com and Ionicons fonts icons by ionicons.com
-Version: 0.3
-License: Expat/MIT Licence for the theme and ionicons icons, Free licence for the Kube CSS framework
-License URI: http://directory.fsf.org/wiki/License:Expat
-Tags: White, two-columns, right-sidebar, translation-ready
-Text Domain: wp-kube
-*/
+/**
+ * Theme Name: wp-kube
+ * Theme URI: http://wordpress.org/themes/wp-kube
+ * Author: Nicelab
+ * Author URI: https://github.com/nicelab
+ * Description: Theme based on the Kube CSS framework by imperavi.com and Ionicons fonts icons by ionicons.com. This is a white simple theme with widgets support on the right sidebar and the footer. The theme also provide support for Breadcrumb NavTx the and Opening Hours plugins.
+ * Version: 1.0
+ * License: Expat/MIT Licence for the theme and ionicons icons, Free licence for the Kube CSS framework
+ * License URI: http://directory.fsf.org/wiki/License:Expat
+ * Tags: White, two-columns, right-sidebar, translation-ready
+ * Text Domain: wp-kube
+ */
 
 /* The default Kube theme */
 @import url("./css/kube.min.css");
@@ -20,6 +20,6 @@ Text Domain: wp-kube
 /* Font icons from ionicons.com */
 @import url("./css/ionicons.css");
 
-/* Our CSS for the Opening Hours plugin*/
+/* Our custom CSS for the Opening Hours plugin */
 @import url("./css/opening-hours-frontend.css");
 

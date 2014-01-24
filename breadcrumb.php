@@ -1,5 +1,9 @@
 <?php
-/* Add support for Breadcrumb NavTx plugin */
+/* Add support for Breadcrumb NavTx plugin
+ *
+ * @package wp-kube
+ * @since wp-kube 1.0
+ */
 ?>
 
 <nav class="breadcrumbs breadcrumbs-path" itemprop="breadcrumb">
