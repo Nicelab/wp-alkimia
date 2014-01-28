@@ -36,7 +36,7 @@ function wpkube_setup()
     ));
     // Enable Post Thumbnail
     add_theme_support('post-thumbnails');
-
+    // Enable backend editor style
     add_editor_style(get_stylesheet_uri());
 }
 add_action('after_setup_theme', 'wpkube_setup');
@@ -45,9 +45,20 @@ add_action('after_setup_theme', 'wpkube_setup');
 // Enqueue scripts and styles for the front end
 function wpkube_scripts_styles()
 {
-    if (is_singular() && comments_open() && get_option( 'thread_comments' ))
+    // Adds JavaScript to pages with the comment form to support sites with threaded comments
+    if (is_singular() && comments_open() && get_option('thread_comments'))
         wp_enqueue_script('comment-reply');
+
+    // Add Kube framework minified CSS
+    wp_enqueue_style('kube-min', get_template_directory_uri().'/css/kube.min.css', array(), '2.0.0');
+    // Add Ionicons icon font
+    wp_enqueue_style('ionicons', get_template_directory_uri().'/css/ionicons.css', array(), '1.4.0');
+    // Add our custom CSS for the Opening Hours plugin (can be changed by child themes)
+    wp_enqueue_style('opening-hours-frontend', get_stylesheet_directory_uri().'/css/opening-hours-frontend.css', array(), null);
+    // Loads our main stylesheet.
+    wp_enqueue_style('style', get_stylesheet_uri());
 }
+add_action('wp_enqueue_scripts', 'wpkube_scripts_styles');
 
 
 // Register sidebars
