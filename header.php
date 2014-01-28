@@ -11,7 +11,8 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title><?php bloginfo('name'); ?> | <?php is_home() ? bloginfo('description') : wp_title(); ?></title>
+  <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
+  <meta name="description" content="<?php bloginfo('description'); ?>" />
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <!--[if lt IE 9]>
   <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js" type="text/javascript"></script>

@@ -7,7 +7,9 @@
 ?>
 
   <footer>
-    <?php dynamic_sidebar('footerbar-1'); ?>
+    <ul id="footerbar" class="blocks-4">
+      <?php dynamic_sidebar('footerbar-1'); ?>
+    </ul>
   </footer>
 
 <?php wp_footer(); ?>
