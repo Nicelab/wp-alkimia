@@ -49,6 +49,10 @@ function wpkube_scripts_styles()
     if (is_singular() && comments_open() && get_option('thread_comments'))
         wp_enqueue_script('comment-reply');
 
+    // Add Kube framework JS helpers
+    wp_enqueue_script('kube-buttons-js', get_template_directory_uri().'/js/kube.buttons.js', array('jquery'), '1.0.1');
+    wp_enqueue_script('kube-tabs-js', get_template_directory_uri().'/js/kube.tabs.js', array('jquery'), '3.0.0');
+
     // Add Kube framework minified CSS
     wp_enqueue_style('kube-min', get_template_directory_uri().'/css/kube.min.css', array(), '2.0.0');
     // Add Ionicons icon font
