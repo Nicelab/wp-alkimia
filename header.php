@@ -20,7 +20,7 @@
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 </head>
 
-<body <?php body_class($class); ?> itemscope itemtype="http://schema.org/WebPage">
+<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
   <!-- top header and menu -->
   <header id="header">
     <?php if (get_header_image()) : ?>

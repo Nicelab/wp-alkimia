@@ -76,16 +76,21 @@ aside .right-widget {
     padding-bottom: 2em;
 }
 
+
 /* Articles */
+article {
+    margin-bottom: 1em;
+}
+
 article header {
     padding-bottom: 2em;
 }
 
 article footer {
-    padding-bottom: 2em;
     text-align: right;
     font-size: 0.85em;
 }
+
 
 /* Comments */
 #comments {
@@ -160,7 +165,11 @@ article footer {
     border-radius: 3px;
 }
 
-#comments .no-comments {
+#closed {
+    border-top: 1px solid #eee;
+}
+
+#closed .no-comments {
     font-style: italic;
     font-size: 0.85em;
 }
@@ -178,27 +187,63 @@ article footer {
     margin: 5px;
 }
 
-/* Various Wordpress required & recomended styles */
-/*
-.wp-caption {
+
+.bypostauthor .comment-meta  {
+    box-shadow:0px 0px 2px 0px #333333;
 }
-.wp-caption-text {
-}
+
+
+
+
+
+/* Wordpress required & recomended styles */
 .sticky {
+    padding: 0.5em;
+    box-shadow:0px 0px 3px 1px #333333;
 }
+
+var {
+    font-family: "Courier New";
+}
+/*
 .gallery-caption {
 }
 .bypostauthor {
 }
+*/
+
+.wp-caption {
+    margin: 0;
+}
+
+.wp-caption-text {
+    margin: 0;
+}
+
 .alignright {
-    text-align: right;
+    float: right;
 }
+
 .alignleft {
-    text-align: left;
+    float: left;
 }
+
+img.alignright {
+    margin-left: 0.5em;
+}
+
+img.alignleft {
+    margin-right: 0.5em;
+}
+
+.entry-thumbnail img,
 .aligncenter {
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+div,
 .size-auto,
 .size-full,
 .size-large,
@@ -207,7 +252,13 @@ article footer {
     max-width: 100%;
     height: auto;
 }
-*/
+
+embed,
+iframe {
+    max-width: 100%;
+}
+
+
 
 /* =Footer
 -----------------------------------------------------------------------------*/

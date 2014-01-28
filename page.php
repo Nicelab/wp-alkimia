@@ -24,10 +24,7 @@ get_header();
     endif;
     ?>
     </section>
-
     <!-- right widgets sidebar -->
     <?php get_sidebar(); ?>
-
   </div>
-
 <?php get_footer(); ?>

@@ -7,10 +7,8 @@
  */
 
 get_header(); ?>
-
   <!-- main section -->
   <section class="units-row">
-
     <!-- main content -->
     <article class="unit-75">
       <?php get_template_part('breadcrumb'); ?>
@@ -26,10 +24,7 @@ get_header(); ?>
         </div>
       </section>
     </article>
-
     <!-- right widgets sidebar -->
     <?php get_sidebar(); ?>
-
   </section>
-
 <?php get_footer(); ?>

@@ -5,6 +5,7 @@
  * @since wp-kube 1.0
  */
 ?>
+
 <article>
   <header>
     <h1><?php _e('Nothing Found', 'wp-kube'); ?></h1>

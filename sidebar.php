@@ -5,9 +5,7 @@
  * @since wp-kube 1.0
  */
 ?>
+
 <aside class="unit-25">
   <?php dynamic_sidebar('sidebar-1'); ?>
 </aside>
-
-
-

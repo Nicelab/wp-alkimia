@@ -5,6 +5,7 @@
  * @since wp-kube 1.0
  */
 ?>
+
 <section class="unit-75">
   <?php
   if (have_posts()):
