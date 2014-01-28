@@ -1,6 +1,30 @@
-wp-kube
-=======
+=== wp-kube ===
 
-WordPress theme based on the Kube CSS framework by imperavi.com and Ionicons fonts icons by ionicons.com.
-This is a white simple theme with widgets support on the right sidebar and the footer.
-The theme also provide support for Breadcrumb NavTx the and Opening Hours plugins.
+== Description ==
+WordPress theme based on the Kube CSS framework by imperavi.com and Ionicons font by ionicons.com.
+This is a white clear and simple theme with widgets support on the right sidebar.
+
+
+== Licenses ==
+wp-kube theme is under the terms of the Expat/MIT license (see license.txt)
+
+It's bundled with the Kube CSS framework and the Ionicons font.
+
+* The Kube CSS framework is released under the "absolutely free for personal or commercial use" license (see http://imperavi.com/kube/)
+* The Ionicons font is released under the the Expat/MIT license (see http://ionicons.com/)
+
+
+== Features ==
+
+ * Widgets on the right sidebar.
+ * Wigdgets on the footer, preferabily for custom HTML widgets.
+ * Support the Breadcrumb NavTx plugin (http://wordpress.org/plugins/breadcrumb-navxt/)
+ * Custom CSS for the Opening Hours plugin (http://wordpress.org/plugins/wp-opening-hours/)
+ * Translation ready (English & French available)
+
+
+== Changelog ==
+= 1.0 =
+Initial release
+
+
