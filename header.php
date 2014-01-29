@@ -29,6 +29,6 @@
     <h1><?php bloginfo('name'); ?></h1>
     <?php endif; ?>
     <nav class="nav-g">
-      <?php wp_nav_menu(array('theme_location' => 'header-menu', 'container' => '')); ?>
+      <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => '')); ?>
     </nav>
   </header>
