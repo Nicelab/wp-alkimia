@@ -80,13 +80,26 @@ body {
 aside ul {
     list-style: none;
     margin: 0;
-    font-size: 0.85em;
+    font-size: 0.9em;
 }
 
 aside .right-widget {
     padding-bottom: 2em;
 }
 
+aside .right-widget .input-search {
+    width: 90px;
+}
+
+#wp-calendar {
+    width: 100%;
+    font-size: 0.9em;
+}
+
+#wp-calendar th,
+#wp-calendar td {
+    padding: 0.25em 0.4em 0.25em 0.4em;
+}
 
 /* Articles */
 article {
@@ -233,11 +246,11 @@ var {
 }
 
 img.alignright {
-    margin-left: 0.5em;
+    margin-left: 0.7em;
 }
 
 img.alignleft {
-    margin-right: 0.5em;
+    margin-right: 0.7em;
 }
 
 .entry-thumbnail img,
