@@ -11,7 +11,7 @@
     <h1><?php _e('Nothing Found', 'wp-kube'); ?></h1>
   </header>
   <section>
-    <p><?php _e('Apologies, but no results were found. Perhaps searching will help find a related post.', 'wp-kube'); ?></p>
+    <p><?php _e('It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'wp-kube'); ?></p>
     <?php get_search_form(); ?>
   </section>
 </article>

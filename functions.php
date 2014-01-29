@@ -17,7 +17,7 @@ function wpkube_setup()
     add_theme_support('automatic-feed-links');
     // Enable header Nav menu
     register_nav_menus(array(
-        'header-menu'   => __('Header Menu', 'wp-kube'),
+        'primary'   => __('Top primary menu', 'wp-kube'),
     ));
     // Enable html5 forms
     add_theme_support('html5', array(
@@ -70,7 +70,7 @@ function wpkube_widgets_init()
 {
     // Right sidebar
     register_sidebar(array(
-        'name'          => __('Right Sidebar', 'wp-kube'),
+        'name'          => __('Primary Sidebar', 'wp-kube'),
         'id'            => 'sidebar-1',
         'description'   => __('Main sidebar that appears on the right.', 'wp-kube'),
         'before_widget' => '<div class="right-widget">',
@@ -80,9 +80,9 @@ function wpkube_widgets_init()
     ));
     // Footer bar
     register_sidebar(array(
-        'name'          => __('Footer', 'wp-kube'),
+        'name'          => __('Footer Widget Area', 'wp-kube'),
         'id'            => 'footerbar-1',
-        'description'   => __('Main Footer that appears on the bottom.', 'wp-kube'),
+        'description'   => __('Appears in the footer section of the site.', 'wp-kube'),
         'before_widget' => '<li class="footer-widget">',
         'after_widget'  => '</li>',
         'before_title'  => '<h6>',
@@ -91,7 +91,7 @@ function wpkube_widgets_init()
 }
 if (function_exists('register_sidebar'))
 {
-    add_action( 'widgets_init', 'wpkube_widgets_init' );
+    add_action('widgets_init', 'wpkube_widgets_init');
 }
 
 // remove  the #more anchor
