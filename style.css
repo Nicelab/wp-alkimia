@@ -3,7 +3,7 @@
  * Theme URI: https://github.com/nicelab/wp-kube
  * Author: Nicelab.org
  * Author URI: https://nicelab.org
- * Description: Theme based on the Kube CSS framework by imperavi.com and Ionicons fonts icons by ionicons.com. This is a white simple theme with widgets support on the right sidebar and the footer. The theme also provide support for Breadcrumb NavTx the and Opening Hours plugins.
+ * Description: Theme based on the Kube CSS framework by imperavi.com and Ionicons fonts icons by ionicons.com. This is a white simple theme with widgets support on the right sidebar and the footer. The theme also provide support for Breadcrumb NavTx and the Opening Hours plugins.
  * Version: 1.0
  * Copyright: (c) 2014 Nicelab.org
  * License: Expat/MIT License for the theme and Ionicons icons. Absolutely free License for the Kube CSS framework
@@ -212,9 +212,9 @@ article footer {
 var {
     font-family: "Courier New";
 }
-/*
+
 .gallery-caption {
-}*/
+}
 
 .wp-caption {
     margin: 0;
