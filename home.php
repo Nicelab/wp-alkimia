@@ -1,5 +1,6 @@
 <?php
-/* The main template file
+/**
+ * The template for displaying home page
  *
  * @package wp-kube
  * @since wp-kube 1.0

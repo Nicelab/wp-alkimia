@@ -1,5 +1,6 @@
 <?php
-/* The template for displaying all pages
+/**
+ * The template for displaying all pages
  *
  * @package wp-kube
  * @since wp-kube 1.0

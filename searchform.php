@@ -1,5 +1,6 @@
 <?php
-/* The template for the search form
+/**
+ * The template for the search form
  *
  * @package wp-kube
  * @since wp-kube 1.0

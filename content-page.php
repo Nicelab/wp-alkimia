@@ -1,5 +1,6 @@
 <?php
-/* The template used for displaying page content
+/**
+ * The template used for displaying page content
  *
  * @package wp-kube
  * @since wp-kube 1.0

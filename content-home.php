@@ -1,5 +1,6 @@
 <?php
-/* The default template for displaying content
+/**
+ * The default template for displaying content
  *
  * @package wp-kube
  * @since wp-kube 1.0

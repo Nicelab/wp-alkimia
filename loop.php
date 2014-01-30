@@ -1,5 +1,6 @@
 <?php
-/* The main loop file
+/**
+ * The main loop file
  *
  * @package wp-kube
  * @since wp-kube 1.0

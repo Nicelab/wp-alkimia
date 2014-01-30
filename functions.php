@@ -1,5 +1,6 @@
 <?php
-/* wp-kube functions and definitions.
+/**
+ * wp-kube functions and definitions.
  *
  * @package wp-kube
  * @since wp-kube 1.0

@@ -1,5 +1,6 @@
 <?php
-/* The Sidebar containing the main widget area
+/**
+ * The Sidebar containing the main widget area
  *
  * @package wp-kube
  * @since wp-kube 1.0

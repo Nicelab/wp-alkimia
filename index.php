@@ -1,5 +1,6 @@
 <?php
-/* The main template file
+/**
+ * The main template file
  *
  * @package wp-kube
  * @since wp-kube 1.0

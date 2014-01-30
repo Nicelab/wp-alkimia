@@ -1,5 +1,6 @@
 <?php
-/* Add support for Breadcrumb NavTx plugin
+/**
+ * Add support for Breadcrumb NavTx plugin
  *
  * @package wp-kube
  * @since wp-kube 1.0

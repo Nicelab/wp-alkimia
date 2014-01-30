@@ -1,5 +1,6 @@
 <?php
-/* The template used for displaying single post content
+/**
+ * The template used for displaying single post content
  *
  * @package wp-kube
  * @since wp-kube 1.0

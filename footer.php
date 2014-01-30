@@ -1,5 +1,6 @@
 <?php
-/* The template for displaying the footer
+/**
+ * The template for displaying the footer
  *
  * @package wp-kube
  * @since wp-kube 1.0

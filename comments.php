@@ -1,5 +1,6 @@
 <?php
-/* The template for for displaying comments
+/**
+ * The template for for displaying comments
  *
  * @package wp-kube
  * @since wp-kube 1.0

@@ -1,5 +1,6 @@
 <?php
-/* The template for displaying the header
+/**
+ * The template for displaying the header
  *
  * @package wp-kube
  * @since wp-kube 1.0
