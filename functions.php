@@ -38,7 +38,7 @@ function wpkube_setup()
     // Enable Post Thumbnail
     add_theme_support('post-thumbnails');
     // Enable backend editor style
-    add_editor_style(get_stylesheet_uri());
+    add_editor_style('css/editor-style.css');
 }
 add_action('after_setup_theme', 'wpkube_setup');
 

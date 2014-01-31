@@ -31,6 +31,9 @@ It's bundled with the Kube CSS framework, the Ionicons font and HTML5 Shiv.
 
 == Changelog ==
 
+= 1.0.2 =
+Correct editor-style after review.
+
 = 1.0.1 =
 Screenshot and documentation update after review.
 
