@@ -12,7 +12,7 @@
       <?php dynamic_sidebar('footerbar-1'); ?>
     </ul>
   </footer>
-
+</div> <!-- // main wrapper -->
 <?php wp_footer(); ?>
 </body>
 </html>

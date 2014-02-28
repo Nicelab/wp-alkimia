@@ -7,6 +7,6 @@
  */
 ?>
 
-<aside class="unit-25">
+<aside class="large-25">
   <?php dynamic_sidebar('sidebar-1'); ?>
 </aside>

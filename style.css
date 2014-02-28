@@ -12,13 +12,8 @@
  * Text Domain: wp-kube
  */
 
-
-/* =Typography
+/* Typography
 -----------------------------------------------------------------------------*/
-body {
-    font-size: 1.1em;
-    line-height: 1.5em;
-}
 
 /* Georgia for main titles */
 h1, h2, h3, h4, h5 {
@@ -26,87 +21,56 @@ h1, h2, h3, h4, h5 {
     font-weight: normal;
 }
 
-figure {
-    text-align: center;
-    padding-bottom: 20px;
-}
-figcaption {
-    font-size: 1em;
+h6 {
+    text-transform: uppercase;
 }
 
-
-/* =Links
------------------------------------------------------------------------------*/
-a:link {text-decoration: none;}
-a:hover {text-decoration: underline;}
-
-
-/* =Layout
------------------------------------------------------------------------------*/
-body {
-    margin: auto;
-    max-width: 1000px;
-    padding: 30px 10px;
-    _width: 940px;
-    color: #333;
+a {
+    color: #336699;
+}
+a:focus, a:hover {
+    color: #ef6465;
 }
 
 
-/* =Header
+/* Header
 -----------------------------------------------------------------------------*/
 #header {
     overflow: hidden;
-    margin-bottom: 1em;
-    border-bottom: 1px solid #eee;
-}
-
-#header h1 {
-    margin: 0;
-    float: left;
+    margin-bottom: 2.5em;
+    border-bottom: 2px solid #eee;
 }
 
 
-/* =Top Nav
+/* Sidebar
 -----------------------------------------------------------------------------*/
-#header nav {
-    padding-top: 2.5em;
-    float: right;
-}
 
-/* =Misc
------------------------------------------------------------------------------*/
-/* Sidebar widgets */
 aside ul {
     list-style: none;
     margin: 0;
-    font-size: 0.9em;
+    padding-left: 0.7em;
 }
 
 aside .right-widget {
     padding-bottom: 2em;
 }
 
-aside .right-widget .input-search {
-    width: 90px;
+
+/* Breadcrumbs
+-----------------------------------------------------------------------------*/
+.ink-navigation .breadcrumbs li {
+    line-height: 2em;
 }
 
-#wp-calendar {
-    width: 100%;
-    font-size: 0.9em;
+.ink-navigation .breadcrumbs li:first-child a {
+    padding-left: 0.6em;
 }
 
-#wp-calendar th,
-#wp-calendar td {
-    padding: 0.25em 0.4em 0.25em 0.4em;
-}
 
-/* Articles */
-article {
-    margin-bottom: 1em;
-}
-
+/* Article
+-----------------------------------------------------------------------------*/
 article header {
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
 }
 
 article footer {
@@ -115,177 +79,47 @@ article footer {
 }
 
 
-/* Comments */
-#comments {
-    border-top: 1px solid #eee;
-}
-
-#comments ol {
-    list-style-type: none;
-    margin: 0;
-}
-
-#comments li {
-    list-style: none;
-}
-
-#comments p:first-letter {
-    text-transform: uppercase;
-}
-
-#comments .children {
-    margin-bottom: 10px;
-}
-
-#comments .comment-meta {
-    background-color: #f5f5f5;
-    text-align: left;
-    padding: 0;
-    height: 64px;
-    border-radius: 7px;
-}
-
-#comments .avatar {
-    float: left;
-    padding-right: 20px;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-}
-
-#comments .says {
-    display: none;
-}
-
-#comments time {
-    font-style: italic;
-}
-
-#comments .edit-link {
-    float: right;
-    padding-right: 15px;
-    font-size: 0.85em;
-}
-
-#comments .reply {
-    text-align: right;
-    margin-bottom: 12px;
-    padding-right: 10px;
-    font-size: 0.7em;
-}
-
-#comments .comment-reply-link {
-    background-color: #f5f5f5;
-    padding: 5px;
-    border: 1px solid #eee;
-    border-radius: 12px;
-}
-
-#comments .comment-content p {
-    margin-top: 10px;
-    margin-bottom: 0px;
-    padding-left: 10px;
-    border-left: 5px solid #eee;
-    border-radius: 3px;
-}
-
-#closed {
-    border-top: 1px solid #eee;
-}
-
-#closed .no-comments {
-    font-style: italic;
-    font-size: 0.85em;
-}
-
-#respond {
-    border-top: 1px solid #eee;
-}
-
-#respond .comment-notes-after {
-    font-style: italic;
-    font-size: 0.85em;
-}
-
-#respond p {
-    margin: 5px;
-}
-
-.bypostauthor .comment-meta  {
-    box-shadow:0px 0px 2px 0px #333333;
+/* Footer
+-----------------------------------------------------------------------------*/
+footer {
+    border-top: 1px solid #eeeeee;
+    padding-top: 0.6em;
+    background: #ffffff;
 }
 
 
-/* Wordpress required & recomended styles */
-.sticky {
-    padding: 0.5em;
-    box-shadow:0px 0px 3px 1px #333333;
+/* Buttons
+-----------------------------------------------------------------------------*/
+.ink-button.flat {
+    background: #eeeeee;
+}
+.ink-button.flat:hover {
+    background: #ffffff;
 }
 
-var {
-    font-family: "Courier New";
-}
 
-.gallery-caption {
-}
-
-.wp-caption {
-    margin: 0;
-}
-
-.wp-caption-text {
-    margin: 0;
+/* Images
+-----------------------------------------------------------------------------*/
+.alignleft {
+  float:left;
+  margin:0 12px 6px 0;
 }
 
 .alignright {
-    float: right;
+  float:right;
+  margin:0 0 6px 12px;
 }
 
-.alignleft {
-    float: left;
-}
-
-img.alignright {
-    margin-left: 0.7em;
-}
-
-img.alignleft {
-    margin-right: 0.7em;
-}
-
-.entry-thumbnail img,
-.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0.5em;
-}
-
-.entry-thumbnail {
-
-}
-
-div,
-.size-auto,
-.size-full,
-.size-large,
-.size-medium,
-.size-thumbnail {
-    max-width: 100%;
-    height: auto;
-}
-
-embed,
-iframe {
-    max-width: 100%;
-}
-
-
-/* =Footer
------------------------------------------------------------------------------*/
-/* Footer widgets */
-
-footer ul {
-    list-style: none;
-    margin: 0;
+.wp-caption {
+    background:#f5f5f5;
+    border:1px solid #ddd;
+    padding:3px;
     font-size: 0.85em;
+}
+
+/* Comments
+-----------------------------------------------------------------------------*/
+#respond {
+    clear: both;
+    border-top: 1px solid #eeeeee;
 }

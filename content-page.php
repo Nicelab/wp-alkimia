@@ -24,7 +24,7 @@
   <footer>
     <?php wp_link_pages(); ?>
     <?php if (is_user_logged_in()): ?>
-        &nbsp;&nbsp;<i class="icon ion-edit"></i>&nbsp;
+        <i class="icon-pencil"></i>&nbsp;
     <?php edit_post_link(__('Edit', 'wp-kube'));
     endif;
     ?>

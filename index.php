@@ -8,8 +8,8 @@
 
 get_header();
 ?>
-  <!-- main wrapper -->
-  <div class="units-row">
+  <!-- two collumns wrapper -->
+  <div class="column-group gutters">
     <!-- main content -->
     <?php get_template_part('loop'); ?>
     <!-- right widgets sidebar -->

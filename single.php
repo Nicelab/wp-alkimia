@@ -9,9 +9,9 @@
 get_header();
 ?>
   <!-- main section -->
-  <section class="units-row">
+  <section class="column-group gutters">
     <!-- main content -->
-    <article class="unit-75">
+    <article class="large-75">
     <?php get_template_part('breadcrumb'); ?>
     <?php
     if (have_posts()):
@@ -19,10 +19,14 @@ get_header();
             the_post();
             get_template_part('content', 'single');
             ?>
-            <ul class="pagination">
-              <li class="pagination-older"><?php previous_post_link('%link', '&laquo; %title');?></li>
-              <li class="pagination-newest pagination-pull"><?php next_post_link('%link', '%title &raquo;');?></li>
-            </ul>
+            <nav class="ink-navigation">
+              <ul class="pills rounded shadowed pull-left">
+                <li class="previous"><?php previous_post_link('%link', '&laquo; %title');?></li>
+              </ul>
+              <ul class="pills rounded shadowed pull-right">
+                <li class="next"><?php next_post_link('%link', '%title &raquo;');?></li>
+              </ul>
+            </nav>
             <?php
             if (comments_open() || get_comments_number()):
                 comments_template();
