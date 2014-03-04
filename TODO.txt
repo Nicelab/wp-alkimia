@@ -1,0 +1,5 @@
+== TODO ==
+
+- replace the default style for image galeries
+- improve styles for aside, status and chat custom post types
+- add styles vor vertical menu in the sidebar
