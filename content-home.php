@@ -2,8 +2,8 @@
 /**
  * The default template for displaying content
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 ?>
 
@@ -18,7 +18,7 @@
       <i class="icon-user"></i>&nbsp;<?php the_author_posts_link(); ?>&nbsp;&nbsp;
       <?php if (!post_password_required() && (comments_open() || get_comments_number())): ?>
         <i class="icon-comment"></i>&nbsp;
-        <?php comments_popup_link(__('Leave a comment', 'wp-kube'), __('1 Comment', 'wp-kube'), __('% Comments', 'wp-kube'));
+        <?php comments_popup_link(__('Leave a comment', 'wp-alkimia'), __('1 Comment', 'wp-alkimia'), __('% Comments', 'wp-alkimia'));
       endif; ?>
     </div>
     <div>
@@ -37,7 +37,7 @@
     wp_link_pages();
     if (is_user_logged_in()) : ?>
         <i class="icon-pencil"></i>&nbsp;
-    <?php edit_post_link(__('Edit', 'wp-kube'));
+    <?php edit_post_link(__('Edit', 'wp-alkimia'));
     endif;
     ?>
   </footer>

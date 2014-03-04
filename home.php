@@ -2,8 +2,8 @@
 /**
  * The template for displaying home page
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 
 // make use of <--more--> tag instead of the_excerpt, fully display the more recent post

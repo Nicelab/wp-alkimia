@@ -1,9 +1,9 @@
 <?php
 /**
- * wp-kube functions and definitions.
+ * wp-alkimia functions and definitions.
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 
 if (!isset($content_width))
@@ -13,12 +13,12 @@ if (!isset($content_width))
 function wpkube_setup()
 {
     // Setup translation directory
-    load_theme_textdomain('wp-kube', get_template_directory().'/languages');
+    load_theme_textdomain('wp-alkimia', get_template_directory().'/languages');
     // Adds RSS feed links to <head>
     add_theme_support('automatic-feed-links');
     // Enable header Nav menu
     register_nav_menus(array(
-        'primary'   => __('Top primary menu', 'wp-kube'),
+        'primary'   => __('Top primary menu', 'wp-alkimia'),
     ));
     // Enable html5 forms
     add_theme_support('html5', array(
@@ -69,9 +69,9 @@ function wpkube_widgets_init()
 {
     // Right sidebar
     register_sidebar(array(
-        'name'          => __('Primary Sidebar', 'wp-kube'),
+        'name'          => __('Primary Sidebar', 'wp-alkimia'),
         'id'            => 'sidebar-1',
-        'description'   => __('Main sidebar that appears on the right.', 'wp-kube'),
+        'description'   => __('Main sidebar that appears on the right.', 'wp-alkimia'),
         'before_widget' => '<div class="right-widget">',
         'after_widget'  => '</div>',
         'before_title'  => '<h6>',
@@ -79,9 +79,9 @@ function wpkube_widgets_init()
     ));
     // Footer bar
     register_sidebar(array(
-        'name'          => __('Footer Widget Area', 'wp-kube'),
+        'name'          => __('Footer Widget Area', 'wp-alkimia'),
         'id'            => 'footerbar-1',
-        'description'   => __('Appears in the footer section of the site.', 'wp-kube'),
+        'description'   => __('Appears in the footer section of the site.', 'wp-alkimia'),
         'before_widget' => '<li class="footer-widget large-25">',
         'after_widget'  => '</li>',
         'before_title'  => '<h6>',

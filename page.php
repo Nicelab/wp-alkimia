@@ -2,8 +2,8 @@
 /**
  * The template for displaying all pages
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 
 get_header();

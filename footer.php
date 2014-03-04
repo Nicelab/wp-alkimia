@@ -2,8 +2,8 @@
 /**
  * The template for displaying the footer
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 ?>
 
