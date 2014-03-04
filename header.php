@@ -13,7 +13,6 @@
   <meta charset="<?php bloginfo('charset'); ?>" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <title><?php bloginfo('name'); ?> <?php wp_title(); ?></title>
-  <meta name="description" content="<?php bloginfo('description'); ?>" />
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
   <!--[if lt IE 9]>
   <script src="<?php echo get_template_directory_uri(); ?>/js/html5shiv.js" type="text/javascript"></script>
@@ -32,6 +31,6 @@
     <h1><?php bloginfo('name'); ?></h1>
     <?php endif; ?>
     <nav class="ink-navigation pull-right">
-      <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => '', 'menu_class' => 'menu horizontal')); ?>
+      <?php wp_nav_menu(array('theme_location' => 'primary', 'container' => '', 'menu_class' => 'menu horizontal rounded shadowed white flat')); ?>
     </nav>
   </header>

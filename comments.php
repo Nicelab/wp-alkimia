@@ -38,13 +38,32 @@ if (have_comments()): ?>
   <?php
   ob_start();
   comment_form(array(
-      'logged_in_as' => '',
+      'logged_in_as'  => '',
       'comment_notes_before' => '',
-      'comment_notes_after' => '<p class="comment-notes-after">'. __('Your email address will not be published.', 'wp-kube') .'</p>',
+      'fields'        => apply_filters('comment_form_default_fields', array(
+          'author'    => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="author">'.
+                         __('Name', 'wp-kube').' <span class="required">*</span></label>'.
+                         '<div class="control large-80"><input type="text" id="author" name="author" aria-required="true"></div></fieldset>',
+          'email'     => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="email">'.
+                         __('Email', 'wp-kube').' <span class="required">*</span></label>'.
+                         '<div class="control large-80"><input type="email" id="email" name="email" aria-required="true">'.
+                         '<p class="tip">'.__('Your email address will not be published.', 'wp-kube').'</p></div></fieldset>',
+          'url'       => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="url">'.
+                         __('Website', 'wp-kube').'</label>'.
+                         '<div class="control large-80"><input type="url" id="url" name="url"></div></fieldset>',
+      )),
+      'comment_field' => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="comment">'.
+                         __('Comment', 'wp-kube').' <span class="required">*</span></label>'.
+                         '<div class="control large-80"><textarea id="comment" name="comment" rows="8" aria-required="true"></textarea>'.
+                         '<p class="tip">'.sprintf(
+                             __('You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s', 'wp-kube'),
+                             ' <code>'.allowed_tags().'</code>'
+                         ).'</p></div></fieldset>',
+      'comment_notes_after' => '',
   ));
-  //alter the form class and submit button
+  // alter the form styles
   $form = ob_get_clean();
-  $form = str_replace('class="comment-form"','class="forms forms-columnar"', $form);
-  $form = str_replace('id="submit"','class="btn"', $form);
+  $form = str_replace('class="comment-form"','class="ink-form"', $form);
+  $form = str_replace('id="submit"','class="ink-button flat pull-right"', $form);
   echo $form;
 ?>

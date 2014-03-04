@@ -7,10 +7,8 @@
  */
 ?>
 
-  <footer>
-    <ul id="footerbar" class="blocks-4">
-      <?php dynamic_sidebar('footerbar-1'); ?>
-    </ul>
+  <footer class="column-group gutters">
+  <?php dynamic_sidebar('footerbar-1'); ?>
   </footer>
 </div> <!-- // main wrapper -->
 <?php wp_footer(); ?>

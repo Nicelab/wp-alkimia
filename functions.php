@@ -82,7 +82,7 @@ function wpkube_widgets_init()
         'name'          => __('Footer Widget Area', 'wp-kube'),
         'id'            => 'footerbar-1',
         'description'   => __('Appears in the footer section of the site.', 'wp-kube'),
-        'before_widget' => '<li class="footer-widget">',
+        'before_widget' => '<li class="footer-widget large-25">',
         'after_widget'  => '</li>',
         'before_title'  => '<h6>',
         'after_title'   => '</h6>',

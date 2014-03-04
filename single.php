@@ -19,11 +19,11 @@ get_header();
             the_post();
             get_template_part('content', 'single');
             ?>
-            <nav class="ink-navigation">
-              <ul class="pills rounded shadowed pull-left">
+            <nav class="ink-navigation prev-next">
+              <ul class="pills rounded flat shadowed pull-left">
                 <li class="previous"><?php previous_post_link('%link', '&laquo; %title');?></li>
               </ul>
-              <ul class="pills rounded shadowed pull-right">
+              <ul class="pills rounded flat shadowed pull-right">
                 <li class="next"><?php next_post_link('%link', '%title &raquo;');?></li>
               </ul>
             </nav>
