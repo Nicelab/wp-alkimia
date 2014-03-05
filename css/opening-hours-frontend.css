@@ -27,7 +27,8 @@
     font-weight: normal;
     padding-left: 25px;
     position: relative;
-    border-radius: 2em;
+    border-radius: 5px;
+    padding: 5px 10px 5px 30px;
 }
 
 .op-status-label.open {
@@ -44,15 +45,19 @@
 
 .op-status-label.closed:before {
     position:absolute;
-    left:7px;
-    font-family: Ionicons;
-    content: "\f12a";
+    left:6px;
+    top:2px;
+    font-size: 1.4em;
+    font-family: 'FontAwesome';
+    content: "\f05e";
 }
 
 .op-status-label.open:before {
     position:absolute;
-    left:7px;
-    font-family: Ionicons;
-    content: "\f122";
+    left:6px;
+    top:2px;
+    font-size: 1.4em;
+    font-family: 'FontAwesome';
+    content: "\f00c";
 }
 

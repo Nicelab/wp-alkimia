@@ -6,11 +6,8 @@
  * @since wp-alkimia 1.1
  */
 
-if (!isset($content_width))
-    $content_width = 1000;
-
 // Main setup
-function wpalkimia_setup()
+function alkimia_setup()
 {
     // Setup translation directory
     load_theme_textdomain('wp-alkimia', get_template_directory().'/languages');
@@ -40,11 +37,11 @@ function wpalkimia_setup()
     // Enable backend editor style
     add_editor_style('css/editor-style.css');
 }
-add_action('after_setup_theme', 'wpalkimia_setup');
+add_action('after_setup_theme', 'alkimia_setup');
 
 
 // Enqueue scripts and styles for the front end
-function wpalkimia_scripts_styles()
+function alkimia_scripts_styles()
 {
     // Adds JavaScript to pages with the comment form to support sites with threaded comments
     if (is_singular() && comments_open() && get_option('thread_comments'))
@@ -59,15 +56,15 @@ function wpalkimia_scripts_styles()
     // Add Ink framework minified CSS
     wp_enqueue_style('ink-min', get_template_directory_uri().'/css/ink-min.css', array(), '2.2.1');
     // Add our custom CSS for the Opening Hours plugin (can be changed by child themes)
-    wp_enqueue_style('opening-hours-frontend', get_stylesheet_directory_uri().'/css/opening-hours-frontend.css', array(), null);
+    wp_enqueue_style('alkimia-opening-hours-frontend', get_stylesheet_directory_uri().'/css/opening-hours-frontend.css', array(), '1.1.0');
     // Loads our main stylesheet.
-    wp_enqueue_style('style', get_stylesheet_uri());
+    wp_enqueue_style('alkimia', get_stylesheet_uri(), array(), '1.1.0');
 }
-add_action('wp_enqueue_scripts', 'wpalkimia_scripts_styles');
+add_action('wp_enqueue_scripts', 'alkimia_scripts_styles');
 
 
 // Register sidebars
-function wpalkimia_widgets_init()
+function alkimia_widgets_init()
 {
     // Right sidebar
     register_sidebar(array(
@@ -92,7 +89,7 @@ function wpalkimia_widgets_init()
 }
 if (function_exists('register_sidebar'))
 {
-    add_action('widgets_init', 'wpalkimia_widgets_init');
+    add_action('widgets_init', 'alkimia_widgets_init');
 }
 
 // remove  the #more anchor
