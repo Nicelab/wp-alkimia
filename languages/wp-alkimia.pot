@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-kube\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-29 10:03+0100\n"
-"PO-Revision-Date: 2014-01-29 10:04+0100\n"
+"POT-Creation-Date: 2014-03-05 11:30+0100\n"
+"PO-Revision-Date: 2014-03-05 11:30+0100\n"
 "Last-Translator: miniwark <miniwark@gmail.com>\n"
 "Language-Team: Nicelab.org <contact@nicelab.org>\n"
 "Language: \n"
@@ -16,77 +16,98 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../searchform.php:11
+#: ../searchform.php:13
 msgid "Search for:"
 msgstr ""
 
-#: ../searchform.php:12
+#: ../searchform.php:14
 msgid "Search"
 msgstr ""
 
-#: ../content-none.php:11
+#: ../content-none.php:12
 msgid "Nothing Found"
 msgstr ""
 
-#: ../content-none.php:14
+#: ../content-none.php:15
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr ""
 
-#: ../content-single.php:20
-#: ../content.php:30
-#: ../content-home.php:20
+#: ../content-single.php:21
+#: ../content.php:31
+#: ../content-home.php:21
 msgid "Leave a comment"
 msgstr ""
 
-#: ../content-single.php:20
-#: ../content.php:30
-#: ../content-home.php:20
+#: ../content-single.php:21
+#: ../content.php:31
+#: ../content-home.php:21
 msgid "1 Comment"
 msgstr ""
 
-#: ../content-single.php:20
-#: ../content.php:30
-#: ../content-home.php:20
+#: ../content-single.php:21
+#: ../content.php:31
+#: ../content-home.php:21
 msgid "% Comments"
 msgstr ""
 
-#: ../content-single.php:43
-#: ../content.php:59
-#: ../content-page.php:27
-#: ../content-home.php:43
+#: ../content-single.php:40
+#: ../content.php:56
+#: ../content-page.php:28
+#: ../content-home.php:40
 msgid "Edit"
 msgstr ""
 
-#: ../functions.php:20
+#: ../functions.php:21
 msgid "Top primary menu"
 msgstr ""
 
-#: ../functions.php:73
+#: ../functions.php:74
 msgid "Primary Sidebar"
 msgstr ""
 
-#: ../functions.php:75
+#: ../functions.php:76
 msgid "Main sidebar that appears on the right."
 msgstr ""
 
-#: ../functions.php:83
+#: ../functions.php:84
 msgid "Footer Widget Area"
 msgstr ""
 
-#: ../functions.php:85
+#: ../functions.php:86
 msgid "Appears in the footer section of the site."
 msgstr ""
 
-#: ../comments.php:15
+#: ../comments.php:16
 msgid "Comments"
 msgstr ""
 
-#: ../comments.php:31
+#: ../comments.php:32
 msgid "Comments are closed."
 msgstr ""
 
-#: ../comments.php:42
+#: ../comments.php:45
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:48
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:50
 msgid "Your email address will not be published."
+msgstr ""
+
+#: ../comments.php:52
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:56
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:59
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
 msgstr ""
 
 #: ../404.php:16

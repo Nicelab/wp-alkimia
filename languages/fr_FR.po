@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wp-kube\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-29 10:08+0100\n"
-"PO-Revision-Date: 2014-01-29 10:08+0100\n"
+"POT-Creation-Date: 2014-03-05 11:30+0100\n"
+"PO-Revision-Date: 2014-03-05 11:35+0100\n"
 "Last-Translator: miniwark <miniwark@gmail.com>\n"
 "Language-Team: Nicelab.org <contact@nicelab.org>\n"
 "Language: \n"
@@ -16,78 +16,99 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../searchform.php:11
+#: ../searchform.php:13
 msgid "Search for:"
 msgstr "Recherche pour&nbsp;:"
 
-#: ../searchform.php:12
+#: ../searchform.php:14
 msgid "Search"
 msgstr "Recherche"
 
-#: ../content-none.php:11
+#: ../content-none.php:12
 msgid "Nothing Found"
 msgstr "Rien n'a été trouvé"
 
-#: ../content-none.php:14
+#: ../content-none.php:15
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Il semble que ce que vous cherchez est introuvable. Essayez avec une recherche."
 
-#: ../content-single.php:20
-#: ../content.php:30
-#: ../content-home.php:20
+#: ../content-single.php:21
+#: ../content.php:31
+#: ../content-home.php:21
 msgid "Leave a comment"
 msgstr "Laisser un commentaire"
 
-#: ../content-single.php:20
-#: ../content.php:30
-#: ../content-home.php:20
+#: ../content-single.php:21
+#: ../content.php:31
+#: ../content-home.php:21
 msgid "1 Comment"
 msgstr "Un commentaire"
 
-#: ../content-single.php:20
-#: ../content.php:30
-#: ../content-home.php:20
+#: ../content-single.php:21
+#: ../content.php:31
+#: ../content-home.php:21
 msgid "% Comments"
 msgstr "% commentaires"
 
-#: ../content-single.php:43
-#: ../content.php:59
-#: ../content-page.php:27
-#: ../content-home.php:43
+#: ../content-single.php:40
+#: ../content.php:56
+#: ../content-page.php:28
+#: ../content-home.php:40
 msgid "Edit"
 msgstr "Modifier"
 
-#: ../functions.php:20
+#: ../functions.php:21
 msgid "Top primary menu"
 msgstr "Menu haut principal"
 
-#: ../functions.php:73
+#: ../functions.php:74
 msgid "Primary Sidebar"
 msgstr "Barre latérale principale"
 
-#: ../functions.php:75
+#: ../functions.php:76
 msgid "Main sidebar that appears on the right."
 msgstr "Barre latérale principale qui apparaît à droite."
 
-#: ../functions.php:83
+#: ../functions.php:84
 msgid "Footer Widget Area"
 msgstr "Zone de widgets en pied de page"
 
-#: ../functions.php:85
+#: ../functions.php:86
 msgid "Appears in the footer section of the site."
 msgstr "Apparaît dans le pied de page du site."
 
-#: ../comments.php:15
+#: ../comments.php:16
 msgid "Comments"
 msgstr "Commentaires"
 
-#: ../comments.php:31
+#: ../comments.php:32
 msgid "Comments are closed."
 msgstr "Les commentaires sont fermés."
 
-#: ../comments.php:42
+#: ../comments.php:45
+msgid "Name"
+msgstr "Nom"
+
+#: ../comments.php:48
+msgid "Email"
+msgstr "Adresse de contact"
+
+#: ../comments.php:50
 msgid "Your email address will not be published."
 msgstr "Votre adresse de messagerie ne sera pas publiée."
+
+#: ../comments.php:52
+msgid "Website"
+msgstr "Site web"
+
+#: ../comments.php:56
+msgid "Comment"
+msgstr "Commentaire"
+
+#: ../comments.php:59
+#, php-format
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes: %s"
+msgstr "Vous pouvez utiliser ces balises et attributs <abbr title=\"HyperText Markup Language\">HTML</abbr> : %s"
 
 #: ../404.php:16
 msgid "Not Found"
