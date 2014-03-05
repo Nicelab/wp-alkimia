@@ -86,6 +86,10 @@ iframe {
 
 /* Header
 -----------------------------------------------------------------------------*/
+#header {
+    margin-top: 1em;
+}
+
 /* Top nav bar */
 #header nav {
     margin-bottom: 2.5em;
