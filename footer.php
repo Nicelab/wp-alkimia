@@ -2,17 +2,15 @@
 /**
  * The template for displaying the footer
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 ?>
 
-  <footer>
-    <ul id="footerbar" class="blocks-4">
-      <?php dynamic_sidebar('footerbar-1'); ?>
-    </ul>
+  <footer class="column-group gutters">
+  <?php dynamic_sidebar('footerbar-1'); ?>
   </footer>
-
+</div> <!-- // main wrapper -->
 <?php wp_footer(); ?>
 </body>
 </html>

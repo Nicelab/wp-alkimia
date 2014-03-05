@@ -1,24 +1,24 @@
 <?php
 /**
- * wp-kube functions and definitions.
+ * wp-alkimia functions and definitions.
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 
 if (!isset($content_width))
     $content_width = 1000;
 
 // Main setup
-function wpkube_setup()
+function wpalkimia_setup()
 {
     // Setup translation directory
-    load_theme_textdomain('wp-kube', get_template_directory().'/languages');
+    load_theme_textdomain('wp-alkimia', get_template_directory().'/languages');
     // Adds RSS feed links to <head>
     add_theme_support('automatic-feed-links');
     // Enable header Nav menu
     register_nav_menus(array(
-        'primary'   => __('Top primary menu', 'wp-kube'),
+        'primary'   => __('Top primary menu', 'wp-alkimia'),
     ));
     // Enable html5 forms
     add_theme_support('html5', array(
@@ -40,40 +40,40 @@ function wpkube_setup()
     // Enable backend editor style
     add_editor_style('css/editor-style.css');
 }
-add_action('after_setup_theme', 'wpkube_setup');
+add_action('after_setup_theme', 'wpalkimia_setup');
 
 
 // Enqueue scripts and styles for the front end
-function wpkube_scripts_styles()
+function wpalkimia_scripts_styles()
 {
     // Adds JavaScript to pages with the comment form to support sites with threaded comments
     if (is_singular() && comments_open() && get_option('thread_comments'))
         wp_enqueue_script('comment-reply');
 
-    // Add Kube framework JS helpers
-    wp_enqueue_script('kube-buttons-js', get_template_directory_uri().'/js/kube.buttons.js', array('jquery'), '1.0.1');
-    wp_enqueue_script('kube-tabs-js', get_template_directory_uri().'/js/kube.tabs.js', array('jquery'), '3.0.0');
+    // Add Ink framework JS helpers
+    //wp_enqueue_script('ink-core-js', get_template_directory_uri().'/js/ink.min.js.js', array(), '2.2.1');
+    //wp_enqueue_script('ink-carrousel-js', get_template_directory_uri().'/js/ink.carousel.js', array(), '2.2.1');
+    //wp_enqueue_script('ink-gallery-js', get_template_directory_uri().'/js/ink.gallery.js', array(), '2.2.1');
+    //wp_enqueue_script('ink-autoload-js', get_template_directory_uri().'/js/ink.autoload.js', array(), '2.2.1');
 
-    // Add Kube framework minified CSS
-    wp_enqueue_style('kube-min', get_template_directory_uri().'/css/kube.min.css', array(), '2.0.0');
-    // Add Ionicons icon font
-    wp_enqueue_style('ionicons', get_template_directory_uri().'/css/ionicons.css', array(), '1.4.0');
+    // Add Ink framework minified CSS
+    wp_enqueue_style('ink-min', get_template_directory_uri().'/css/ink-min.css', array(), '2.2.1');
     // Add our custom CSS for the Opening Hours plugin (can be changed by child themes)
     wp_enqueue_style('opening-hours-frontend', get_stylesheet_directory_uri().'/css/opening-hours-frontend.css', array(), null);
     // Loads our main stylesheet.
     wp_enqueue_style('style', get_stylesheet_uri());
 }
-add_action('wp_enqueue_scripts', 'wpkube_scripts_styles');
+add_action('wp_enqueue_scripts', 'wpalkimia_scripts_styles');
 
 
 // Register sidebars
-function wpkube_widgets_init()
+function wpalkimia_widgets_init()
 {
     // Right sidebar
     register_sidebar(array(
-        'name'          => __('Primary Sidebar', 'wp-kube'),
+        'name'          => __('Primary Sidebar', 'wp-alkimia'),
         'id'            => 'sidebar-1',
-        'description'   => __('Main sidebar that appears on the right.', 'wp-kube'),
+        'description'   => __('Main sidebar that appears on the right.', 'wp-alkimia'),
         'before_widget' => '<div class="right-widget">',
         'after_widget'  => '</div>',
         'before_title'  => '<h6>',
@@ -81,10 +81,10 @@ function wpkube_widgets_init()
     ));
     // Footer bar
     register_sidebar(array(
-        'name'          => __('Footer Widget Area', 'wp-kube'),
+        'name'          => __('Footer Widget Area', 'wp-alkimia'),
         'id'            => 'footerbar-1',
-        'description'   => __('Appears in the footer section of the site.', 'wp-kube'),
-        'before_widget' => '<li class="footer-widget">',
+        'description'   => __('Appears in the footer section of the site.', 'wp-alkimia'),
+        'before_widget' => '<li class="footer-widget large-25">',
         'after_widget'  => '</li>',
         'before_title'  => '<h6>',
         'after_title'   => '</h6>',
@@ -92,7 +92,7 @@ function wpkube_widgets_init()
 }
 if (function_exists('register_sidebar'))
 {
-    add_action('widgets_init', 'wpkube_widgets_init');
+    add_action('widgets_init', 'wpalkimia_widgets_init');
 }
 
 // remove  the #more anchor

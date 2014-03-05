@@ -2,14 +2,14 @@
 /**
  * The main template file
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 
 get_header();
 ?>
-  <!-- main wrapper -->
-  <div class="units-row">
+  <!-- two collumns wrapper -->
+  <div class="column-group gutters">
     <!-- main content -->
     <?php get_template_part('loop'); ?>
     <!-- right widgets sidebar -->

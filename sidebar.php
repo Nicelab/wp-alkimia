@@ -2,11 +2,11 @@
 /**
  * The Sidebar containing the main widget area
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 ?>
 
-<aside class="unit-25">
+<aside class="large-25">
   <?php dynamic_sidebar('sidebar-1'); ?>
 </aside>

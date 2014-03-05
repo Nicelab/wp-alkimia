@@ -1,17 +1,19 @@
-=== wp-kube ===
+=== Alkimia ===
 
 == Description ==
-WordPress theme based on the Kube CSS framework by imperavi.com and Ionicons font by ionicons.com.
+WordPress theme based on the InK CSS framework by sapo.pt.
 This is a white clear and simple theme with widgets support on the right sidebar.
 
 
 == Licenses ==
-wp-kube theme is under the terms of the Expat/MIT license (see license.txt)
+Alkimia theme is under the terms of the Expat/MIT license (see license.txt)
 
-It's bundled with the Kube CSS framework, the Ionicons font and HTML5 Shiv.
+It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normalize.css and HTML5 Shiv.
 
-* The Kube CSS framework and his javascript helepers are released under the "absolutely free for personal or commercial use" license (see http://imperavi.com/kube)
-* The Ionicons font is released under the the Expat/MIT license (see http://ionicons.com)
+* The InK CSS framework and his javascript helpers are released under the Expat/MIT license (see https://github.com/sapo/Ink/blob/develop/LICENSE)
+* Ubuntu font is released unter Ubuntu Font License (see http://font.ubuntu.com/licence/)
+* Font Awesome is released unter SIL Open Font License (see http://fontawesome.io/license/)
+* Normalize.css is released under under the Expat/MIT license (see https://github.com/necolas/normalize.css/blob/master/LICENSE.md)
 * HTML5 Shiv is released under dual MIT/GPL2 licenses (see https://github.com/aFarkas/html5shiv)
 
 
@@ -26,16 +28,19 @@ It's bundled with the Kube CSS framework, the Ionicons font and HTML5 Shiv.
 
 == Limitations ==
 
- * No drop-down menus support
+ * Only one level horizontal drop-down menu support
 
 
 == Changelog ==
 
+= 1.1.0 =
+Change the name of the project and complete css rework.
+
 = 1.0.2 =
-Correct editor-style after review.
+Correct editor-style after review
 
 = 1.0.1 =
-Screenshot and documentation update after review.
+Screenshot and documentation update after review
 
 = 1.0 =
 Initial release

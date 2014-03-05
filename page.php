@@ -2,16 +2,16 @@
 /**
  * The template for displaying all pages
  *
- * @package wp-kube
- * @since wp-kube 1.0
+ * @package wp-alkimia
+ * @since wp-alkimia 1.1
  */
 
 get_header();
 ?>
   <!-- main wrapper -->
-  <div class="units-row">
+  <div class="column-group gutters">
     <!-- main content -->
-    <section class="unit-75">
+    <section class="large-75">
     <?php get_template_part('breadcrumb'); ?>
     <?php
     if (have_posts()):
