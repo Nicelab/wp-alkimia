@@ -97,20 +97,20 @@ if (function_exists('register_sidebar'))
 }
 
 // remove  the #more anchor
-function remove_more_link_scroll($link)
+function alkimia_remove_more_link_scroll($link)
 {
     $link = preg_replace('|#more-[0-9]+|', '', $link);
     return $link;
 }
-add_filter('the_content_more_link', 'remove_more_link_scroll');
+add_filter('the_content_more_link', 'alkimia_remove_more_link_scroll');
 
 
 // Add a "more..." link to the_excerpt
-function new_excerpt_more($more)
+function alkimia_new_excerpt_more($more)
 {
     global $post;
     return '<p><a href="'.get_permalink($post->ID).'">'.'(more&hellip;)'.'</a></p>';
 }
-add_filter('excerpt_more', 'new_excerpt_more');
+add_filter('excerpt_more', 'alkimia_new_excerpt_more');
 
 ?>
