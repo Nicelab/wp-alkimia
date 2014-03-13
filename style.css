@@ -484,5 +484,14 @@ aside h6 a.rsswidget img {
 }
 
 
+/* InK Monkey patchs
+-----------------------------------------------------------------------------*/
+/* monkey patch for leaflet maps */
+img + img {
+    margin-top: 0;
+}
 
+img {
+    max-height: none;
+}
 
