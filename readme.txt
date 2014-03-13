@@ -4,6 +4,8 @@
 WordPress theme based on the InK CSS framework by sapo.pt.
 This is a white clear and simple theme with widgets support on the right sidebar.
 
+official support on Github : https://github.com/nicelab/wp-alkimia
+
 
 == Licenses ==
 Alkimia theme is under the terms of the Expat/MIT license (see license.txt)
@@ -29,18 +31,22 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 == Limitations ==
 
  * Only one level horizontal drop-down menu support
+ * No default WooCommerce pages
 
 
 == Changelog ==
+
+= 1.1.1 =
+Various corrections based on WordPress theme review
 
 = 1.1.0 =
 Change the name of the project and complete css rework.
 
 = 1.0.2 =
-Correct editor-style after review
+Various corrections based on WordPress theme review
 
 = 1.0.1 =
-Screenshot and documentation update after review
+Screenshot and documentation update
 
 = 1.0 =
 Initial release
