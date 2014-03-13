@@ -1,4 +1,4 @@
-wp-kube WordPress Theme License
+Alkimia WordPress Theme License
 ===============================
 
 Copyright (c) 2014, Nicelab.org

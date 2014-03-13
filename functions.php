@@ -1,9 +1,9 @@
 <?php
 /**
- * wp-alkimia functions and definitions.
+ * alkimia functions and definitions.
  *
- * @package wp-alkimia
- * @since wp-alkimia 1.1
+ * @package alkimia
+ * @since alkimia 1.1
  */
 
 
@@ -14,12 +14,12 @@ if (!isset($content_width))
 function alkimia_setup()
 {
     // Setup translation directory
-    load_theme_textdomain('wp-alkimia', get_template_directory().'/languages');
+    load_theme_textdomain('alkimia', get_template_directory().'/languages');
     // Adds RSS feed links to <head>
     add_theme_support('automatic-feed-links');
     // Enable header Nav menu
     register_nav_menus(array(
-        'primary'   => __('Top primary menu', 'wp-alkimia'),
+        'primary'   => __('Top primary menu', 'alkimia'),
     ));
     // Enable html5 forms
     add_theme_support('html5', array(
@@ -72,9 +72,9 @@ function alkimia_widgets_init()
 {
     // Right sidebar
     register_sidebar(array(
-        'name'          => __('Primary Sidebar', 'wp-alkimia'),
+        'name'          => __('Primary Sidebar', 'alkimia'),
         'id'            => 'sidebar-1',
-        'description'   => __('Main sidebar that appears on the right.', 'wp-alkimia'),
+        'description'   => __('Main sidebar that appears on the right.', 'alkimia'),
         'before_widget' => '<div class="right-widget">',
         'after_widget'  => '</div>',
         'before_title'  => '<h6>',
@@ -82,9 +82,9 @@ function alkimia_widgets_init()
     ));
     // Footer bar
     register_sidebar(array(
-        'name'          => __('Footer Widget Area', 'wp-alkimia'),
+        'name'          => __('Footer Widget Area', 'alkimia'),
         'id'            => 'footerbar-1',
-        'description'   => __('Appears in the footer section of the site.', 'wp-alkimia'),
+        'description'   => __('Appears in the footer section of the site.', 'alkimia'),
         'before_widget' => '<li class="footer-widget large-25">',
         'after_widget'  => '</li>',
         'before_title'  => '<h6>',

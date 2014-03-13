@@ -2,8 +2,8 @@
 /**
  * Add support for Breadcrumb NavTx plugin
  *
- * @package wp-alkimia
- * @since wp-alkimia 1.1
+ * @package alkimia
+ * @since alkimia 1.1
  */
 ?>
 

@@ -2,8 +2,8 @@
 /**
  * The template for displaying 404 pages (Not Found)
  *
- * @package wp-alkimia
- * @since wp-alkimia 1.1
+ * @package alkimia
+ * @since alkimia 1.1
  */
 
 get_header(); ?>
@@ -13,10 +13,10 @@ get_header(); ?>
     <article class="large-75">
       <?php get_template_part('breadcrumb'); ?>
       <header>
-        <h1><?php _e('Not Found', 'wp-alkimia'); ?></h1>
+        <h1><?php _e('Not Found', 'alkimia'); ?></h1>
       </header>
       <section>
-        <p><?php _e('It looks like nothing was found at this location. Maybe try a search?', 'wp-alkimia'); ?></p>
+        <p><?php _e('It looks like nothing was found at this location. Maybe try a search?', 'alkimia'); ?></p>
         <div class="large-45 push-center vertical-space">
         <?php get_search_form(); ?>
         </div>

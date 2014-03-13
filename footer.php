@@ -2,8 +2,8 @@
 /**
  * The template for displaying the footer
  *
- * @package wp-alkimia
- * @since wp-alkimia 1.1
+ * @package alkimia
+ * @since alkimia 1.1
  */
 ?>
 

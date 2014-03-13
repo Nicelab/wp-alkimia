@@ -2,8 +2,8 @@
 /**
  * The Sidebar containing the main widget area
  *
- * @package wp-alkimia
- * @since wp-alkimia 1.1
+ * @package alkimia
+ * @since alkimia 1.1
  */
 ?>
 

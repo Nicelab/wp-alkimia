@@ -2,8 +2,8 @@
 /**
  * The template for for displaying comments
  *
- * @package wp-alkimia
- * @since wp-alkimia 1.1
+ * @package alkimia
+ * @since alkimia 1.1
  */
 
 if (post_password_required()):
@@ -13,7 +13,7 @@ endif;
 if (have_comments()): ?>
 <!-- comments -->
 <div id="comments">
-  <h3><?php _e('Comments', 'wp-alkimia') ?></h3>
+  <h3><?php _e('Comments', 'alkimia') ?></h3>
 
   <ol>
   <?php
@@ -29,7 +29,7 @@ if (have_comments()): ?>
 
 <?php if (!comments_open() && get_comments_number()): ?>
 <div id="closed" >
-  <p class="no-comments"><?php _e('Comments are closed.', 'wp-alkimia'); ?></p>
+  <p class="no-comments"><?php _e('Comments are closed.', 'alkimia'); ?></p>
 </div>
 <?php endif; ?>
 
@@ -42,21 +42,21 @@ if (have_comments()): ?>
       'comment_notes_before' => '',
       'fields'        => apply_filters('comment_form_default_fields', array(
           'author'    => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="author">'.
-                         __('Name', 'wp-alkimia').' <span class="required">*</span></label>'.
+                         __('Name', 'alkimia').' <span class="required">*</span></label>'.
                          '<div class="control large-80"><input type="text" id="author" name="author" aria-required="true"></div></fieldset>',
           'email'     => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="email">'.
-                         __('Email', 'wp-alkimia').' <span class="required">*</span></label>'.
+                         __('Email', 'alkimia').' <span class="required">*</span></label>'.
                          '<div class="control large-80"><input type="email" id="email" name="email" aria-required="true">'.
-                         '<p class="tip">'.__('Your email address will not be published.', 'wp-alkimia').'</p></div></fieldset>',
+                         '<p class="tip">'.__('Your email address will not be published.', 'alkimia').'</p></div></fieldset>',
           'url'       => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="url">'.
-                         __('Website', 'wp-alkimia').'</label>'.
+                         __('Website', 'alkimia').'</label>'.
                          '<div class="control large-80"><input type="url" id="url" name="url"></div></fieldset>',
       )),
       'comment_field' => '<fieldset class="control-group column-group quarter-gutters"><label class="large-20 content-right" for="comment">'.
-                         __('Comment', 'wp-alkimia').' <span class="required">*</span></label>'.
+                         __('Comment', 'alkimia').' <span class="required">*</span></label>'.
                          '<div class="control large-80"><textarea id="comment" name="comment" rows="8" aria-required="true"></textarea>'.
                          '<p class="tip">'.sprintf(
-                             __('You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s', 'wp-alkimia'),
+                             __('You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes: %s', 'alkimia'),
                              ' <code>'.allowed_tags().'</code>'
                          ).'</p></div></fieldset>',
       'comment_notes_after' => '',

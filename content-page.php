@@ -2,8 +2,8 @@
 /**
  * The template used for displaying page content
  *
- * @package wp-alkimia
- * @since wp-alkimia 1.1
+ * @package alkimia
+ * @since alkimia 1.1
  */
 
 // pages do not display, date, authors, comments, categories and tags
@@ -25,7 +25,7 @@
     <?php wp_link_pages(); ?>
     <?php if (is_user_logged_in()): ?>
         <i class="icon-pencil"></i>&nbsp;
-    <?php edit_post_link(__('Edit', 'wp-alkimia'));
+    <?php edit_post_link(__('Edit', 'alkimia'));
     endif;
     ?>
   </footer>
