@@ -3,4 +3,5 @@
  * Description: Used to style the TinyMCE editor.
  */
 
+@import url('ink-min.css');
 @import url('../style.css');
