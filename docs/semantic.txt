@@ -1,0 +1,44 @@
+== Semantic ==
+
+Simplified semantic structure of the alkimia theme for single posts and pages
+
+
+<body>
+<div class="ink-grid"> <!-- main wrapper -->
+
+  <header>
+    <h1>Site title</h1>
+    <nav class="ink-navigation></nav><!-- main top menu -->
+  </header>
+
+  <section class="column-group gutters"> <!-- two collumns wrapper -->
+    <main>
+      <nav></nav> <!-- breadcrumb -->
+
+      <article>
+        <header>
+          <h2>Post/Page title</h1>
+        </header>
+
+        <section> <!-- the main post/article content -->
+          <?php the_content(); ?>
+        </section>
+
+        <footer>
+        </footer>
+      </article>
+
+      <nav></nav> <!-- prev/next navigation -->
+
+      <div></div> <!-- comments stuff -->
+    </main>
+
+    <aside> <!-- right widgets sidebar -->
+    </aside>
+  </section>
+
+  <footer>
+  </footer>
+
+</div>
+</body>
