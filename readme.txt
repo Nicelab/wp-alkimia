@@ -23,6 +23,7 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 
  * Widgets on the right sidebar.
  * Four colums wigdgets on the footer, preferabily for custom HTML widgets and blogrools.
+ * Support for WooCommerce plugin (http://wordpress.org/plugins/woocommerce/)
  * Support the Breadcrumb NavTx plugin (http://wordpress.org/plugins/breadcrumb-navxt/)
  * Custom CSS for the Opening Hours plugin (http://wordpress.org/plugins/wp-opening-hours/)
  * Translation ready (English & French available)
@@ -31,8 +32,6 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 == Limitations ==
 
  * Only one level horizontal drop-down menu support
- * No default WooCommerce pages
-
 
 == Changelog ==
 
