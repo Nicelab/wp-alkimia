@@ -19,7 +19,6 @@ if (have_comments()): ?>
   <?php
   wp_list_comments(array(
       'avatar_size' => 64,
-      'format' => 'html5',
   ));
   ?>
   </ol>
