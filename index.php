@@ -9,10 +9,10 @@
 get_header();
 ?>
   <!-- two collumns wrapper -->
-  <div class="column-group gutters">
+  <section class="column-group gutters">
     <!-- main content -->
     <?php get_template_part('loop'); ?>
     <!-- right widgets sidebar -->
     <?php get_sidebar(); ?>
-  </div>
+  </section>
 <?php get_footer(); ?>

@@ -7,7 +7,7 @@
  */
 ?>
 
-<section class="large-75">
+<main class="large-75">
   <?php
   if (have_posts()):
       $first_post = true;
@@ -27,4 +27,4 @@
       <li class="next"><?php next_posts_link();?></li>
     </ul>
   </nav>
-</section>
+</main>

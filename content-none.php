@@ -7,7 +7,7 @@
  */
 ?>
 
-<article>
+<article id="none">
   <header>
     <h1><?php _e('Nothing Found', 'alkimia'); ?></h1>
   </header>

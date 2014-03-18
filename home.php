@@ -11,9 +11,9 @@
 get_header();
 ?>
   <!-- two collumns wrapper -->
-  <div class="column-group gutters">
+  <section class="column-group gutters">
     <!-- main content -->
-    <section class="large-75">
+    <main class="large-75">
       <?php
       if (have_posts()):
           $first_post = true;
@@ -41,8 +41,8 @@ get_header();
           <li class="next"><?php next_posts_link();?></li>
         </ul>
       </nav>
-    </section>
+    </main>
     <!-- right widgets sidebar -->
     <?php get_sidebar(); ?>
-  </div>
+  </section>
 <?php get_footer(); ?>

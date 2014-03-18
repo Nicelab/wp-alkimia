@@ -9,13 +9,13 @@
 get_header();
 ?>
   <!-- main wrapper -->
-  <div class="column-group gutters">
+  <section class="column-group gutters">
     <!-- main content -->
-    <section class="large-75">
+    <main class="large-75">
     <?php get_template_part('breadcrumb'); ?>
     <?php woocommerce_content(); ?>
-    </section>
+    </main>
     <!-- right widgets sidebar -->
     <?php get_sidebar(); ?>
-  </div>
+  </section>
 <?php get_footer(); ?>
