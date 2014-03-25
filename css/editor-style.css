@@ -5,3 +5,25 @@
 
 @import url('ink-min.css');
 @import url('../style.css');
+
+
+/* make the body look like the main colum of the theme on large screens */
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 1em;
+}
+
+/* make the image captions look the same as the theme */
+dl.wp-caption {
+    background-color: #fff;
+}
+
+dt.wp-caption-dt {
+    margin: 0;
+}
+
+dd.wp-caption-dd {
+    padding: 3px;
+}
