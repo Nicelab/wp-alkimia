@@ -115,4 +115,7 @@ function alkimia_new_excerpt_more($more)
 }
 add_filter('excerpt_more', 'alkimia_new_excerpt_more');
 
+// Remove the default gallery style
+add_filter('use_default_gallery_style', '__return_false');
+
 ?>
