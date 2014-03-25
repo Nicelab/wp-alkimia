@@ -13,6 +13,8 @@
   </header>
   <section>
     <p><?php _e('It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'alkimia'); ?></p>
+    <div class="large-45 push-center vertical-space">
     <?php get_search_form(); ?>
+    </div>
   </section>
 </article>
