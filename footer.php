@@ -7,7 +7,7 @@
  */
 ?>
 
-  <footer class="column-group gutters">
+  <footer>
   <?php dynamic_sidebar('footerbar-1'); ?>
   </footer>
 </div> <!-- // main wrapper -->

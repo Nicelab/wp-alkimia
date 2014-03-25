@@ -285,8 +285,7 @@ aside h6 {
 -----------------------------------------------------------------------------*/
 footer {
     clear: both;
-    border-top: 1px solid #eee;
-    padding-top: 0.6em;
+    border-top: none;
     background: #fff;
 }
 
@@ -304,6 +303,11 @@ footer ul {
 footer h6 {
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
+}
+
+footer .footer-widget {
+    border-top: 1px solid #eee;
+    padding-top: 0.6em;
 }
 
 /* Comments

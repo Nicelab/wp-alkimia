@@ -87,8 +87,8 @@ function alkimia_widgets_init()
         'name'          => __('Footer Widget Area', 'alkimia'),
         'id'            => 'footerbar-1',
         'description'   => __('Appears in the footer section of the site.', 'alkimia'),
-        'before_widget' => '<li class="footer-widget large-25">',
-        'after_widget'  => '</li>',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget'  => '</div>',
         'before_title'  => '<h6>',
         'after_title'   => '</h6>',
     ));

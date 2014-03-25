@@ -4,7 +4,7 @@
 WordPress theme based on the InK CSS framework by sapo.pt.
 This is a white clear and simple theme with widgets support on the right sidebar.
 
-official support on Github : https://github.com/nicelab/wp-alkimia
+Official support on Github : https://github.com/nicelab/wp-alkimia
 
 
 == Licenses ==
@@ -21,8 +21,8 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 
 == Features ==
 
- * Widgets on the right sidebar.
- * Four colums wigdgets on the footer, preferabily for custom HTML widgets and blogrools.
+ * Widgets on the right sidebar
+ * One colum wigdgets on the footer, preferabily for custom HTML and blogrools
  * Support for WooCommerce plugin (http://wordpress.org/plugins/woocommerce/)
  * Support the Breadcrumb NavTx plugin (http://wordpress.org/plugins/breadcrumb-navxt/)
  * Custom CSS for the Opening Hours plugin (http://wordpress.org/plugins/wp-opening-hours/)
@@ -33,7 +33,11 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 
  * Only one level horizontal drop-down menu support
 
+
 == Changelog ==
+
+= 1.1.2 =
+Change bottom widget placeholder from four colums to one columns
 
 = 1.1.1 =
 Various corrections based on WordPress theme review
