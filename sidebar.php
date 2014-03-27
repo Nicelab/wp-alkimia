@@ -7,6 +7,6 @@
  */
 ?>
 
-<aside class="large-25 small-100">
+<aside class="large-25 medium-30 small-100">
   <?php dynamic_sidebar('sidebar-1'); ?>
 </aside>

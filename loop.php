@@ -7,7 +7,7 @@
  */
 ?>
 
-<main class="large-75 small-100">
+<main class="large-75 medium-70 small-100">
   <?php
   if (have_posts()):
       $first_post = true;
