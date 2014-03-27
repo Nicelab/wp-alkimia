@@ -11,7 +11,7 @@ get_header();
   <!-- main wrapper -->
   <section class="column-group gutters">
     <!-- main content -->
-    <main class="large-75">
+    <main class="large-75 small-100">
     <?php get_template_part('breadcrumb'); ?>
     <?php
     if (have_posts()):

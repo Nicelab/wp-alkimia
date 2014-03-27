@@ -10,7 +10,7 @@ get_header(); ?>
   <!-- main section -->
   <section class="column-group gutters">
     <!-- main content -->
-    <main class="large-75">
+    <main class="large-75 small-100">
       <?php get_template_part('breadcrumb'); ?>
       <article id="404">
         <header>

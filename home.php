@@ -13,7 +13,7 @@ get_header();
   <!-- two collumns wrapper -->
   <section class="column-group gutters">
     <!-- main content -->
-    <main class="large-75">
+    <main class="large-75 small-100">
       <?php
       if (have_posts()):
           $first_post = true;
