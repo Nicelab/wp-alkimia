@@ -104,7 +104,7 @@ iframe {
     margin-bottom: 2.5em;
 }
 
-/* Horizontal menus
+/* Horizontal menus (in top menu)
 -----------------------------------------------------------------------------*/
 .ink-navigation ul.menu.horizontal li a {
     line-height: 1em;
@@ -225,6 +225,46 @@ iframe {
 }
 .ink-navigation ul.menu.rounded.horizontal li ul.sub-menu li a {
     border-radius: 0;
+}
+
+/* Vertical menu (in widgets sidebar)
+-----------------------------------------------------------------------------*/
+.right-widget ul.menu {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+.right-widget ul.menu li a {
+    padding: 0.5em 1em;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    color: #555555;
+    text-decoration: none;
+}
+
+.right-widget ul.menu li a:hover {
+  background: #d9d9d9;
+}
+
+.right-widget ul.sub-menu {
+    padding: 0;
+}
+
+.right-widget ul.sub-menu li a {
+    line-height: 1.2em;
+    padding-left: 2em;
+    font-size: 0.9em;
+}
+
+.right-widget ul.menu li {
+    margin: 0;
+}
+
+.right-widget ul.menu li.current-menu-item {
+    background: #d9d9d9;
 }
 
 
