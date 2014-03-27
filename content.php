@@ -14,9 +14,9 @@
     <?php
     endif;
     if (is_single()):
-        the_title('<h1>', '</h1>');
+        the_title('<h2>', '</h2>');
     else:
-        the_title('<h1><a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a></h1>');
+        the_title('<h2><a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a></h2>');
     endif;
     ?>
     <div>

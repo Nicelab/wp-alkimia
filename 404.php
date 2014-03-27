@@ -14,7 +14,7 @@ get_header(); ?>
       <?php get_template_part('breadcrumb'); ?>
       <article id="404">
         <header>
-          <h1><?php _e('Not Found', 'alkimia'); ?></h1>
+          <h2><?php _e('Not Found', 'alkimia'); ?></h2>
         </header>
         <section>
           <p><?php _e('It looks like nothing was found at this location. Maybe try a search?', 'alkimia'); ?></p>

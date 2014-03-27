@@ -12,7 +12,7 @@
     <?php if (has_post_thumbnail()): ?>
       <div class="entry-thumbnail"><?php the_post_thumbnail(); ?></div>
     <?php endif; ?>
-    <?php the_title('<h1><a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a></h1>'); ?>
+    <?php the_title('<h2><a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a></h2>'); ?>
     <div>
       <i class="icon-calendar"></i>&nbsp;<a href="<?php the_permalink(); ?>"><?php the_time(get_option('date_format')); ?></a>&nbsp;&nbsp;
       <i class="icon-user"></i>&nbsp;<?php the_author_posts_link(); ?>&nbsp;&nbsp;
