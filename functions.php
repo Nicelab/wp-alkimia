@@ -27,7 +27,7 @@ function alkimia_setup()
     ));
     // Enable custom header
     add_theme_support('custom-header', array(
-        'height'      => 100,
+        'height'      => 80,
         'header-text' => false,
         'uploads'     => true,
     ));
