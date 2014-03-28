@@ -59,6 +59,10 @@ var {
     border-radius: 5px;
 }
 
+.sticky .entry-meta {
+    display: none;
+}
+
 /* alligment */
 .alignleft {
     float:left;
