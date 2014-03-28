@@ -28,6 +28,7 @@ p {
 }
 
 h1:first-letter,
+h2:first-letter,
 p:first-letter {
     text-transform: uppercase;
 }
