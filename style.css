@@ -359,6 +359,7 @@ footer h6 {
 footer .footer-widget {
     border-top: 1px solid #eee;
     padding-top: 0.6em;
+    padding-bottom: 0.6em;
 }
 
 /* Comments
