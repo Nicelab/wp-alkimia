@@ -83,7 +83,7 @@ var {
 }
 
 /* divs and videos must stay fit in colums */
-div,
+.ink-grid div,
 .size-auto,
 .size-full,
 .size-large,
