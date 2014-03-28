@@ -1,8 +1,10 @@
 === Alkimia ===
 
 == Description ==
-WordPress theme based on the InK CSS framework by sapo.pt.
-This is a white clear and simple theme with widgets support on the right sidebar.
+Theme based on the InK CSS framework by sapo.pt and Font Awesome fonts icons by Dave Gandi.
+This is a white simple theme with widgets support on the right sidebar and the footer.
+The theme also provide support for Breadcrumb NavTx and the Opening Hours plugins.
+
 
 Official support on Github : https://github.com/nicelab/wp-alkimia
 
@@ -22,7 +24,8 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 == Features ==
 
  * Widgets on the right sidebar
- * One colum wigdgets on the footer, preferabily for custom HTML and blogrools
+ * One colum wigdgets on the footer. Preferabily for custom HTML and blogrools
+ * Home page only widgets area above article. Preferabily for custom HTML featured stuff like banners or downloads links.
  * Support for WooCommerce plugin (http://wordpress.org/plugins/woocommerce/)
  * Support the Breadcrumb NavTx plugin (http://wordpress.org/plugins/breadcrumb-navxt/)
  * Custom CSS for the Opening Hours plugin (http://wordpress.org/plugins/wp-opening-hours/)
@@ -31,26 +34,31 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 
 == Limitations ==
 
- * Only one level horizontal drop-down menu support
+ * Only one level horizontal drop-down top menu support
 
 
 == Changelog ==
 
-= 1.1.2 =
-Change bottom widget placeholder from four colums to one columns
+= 1.2.0 =
+ * Add images and galery styles
+ * Add one level sidebar menu style
+ * Add a home page widget area
+ * Change the footer widget area to one column and rename it
+ * Add support for alternate screen sizes
+ * Various minor styles improvement and fixes
 
 = 1.1.1 =
-Various corrections based on WordPress theme review
+ * Various corrections based on WordPress theme review
 
 = 1.1.0 =
-Change the name of the project and complete css rework.
+ * Change the name of the project and complete css rework.
 
 = 1.0.2 =
-Various corrections based on WordPress theme review
+ * Various corrections based on WordPress theme review
 
 = 1.0.1 =
-Screenshot and documentation update
+ * Screenshot and documentation update
 
 = 1.0 =
-Initial release
+ * Initial release
 
