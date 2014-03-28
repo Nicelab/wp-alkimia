@@ -82,16 +82,27 @@ function alkimia_widgets_init()
         'before_title'  => '<h6>',
         'after_title'   => '</h6>',
     ));
-    // Footer bar
+    // Home page
+    register_sidebar(array(
+        'name'          => __('Home Page Widget Area', 'alkimia'),
+        'id'            => 'sidebar-2',
+        'description'   => __('Appears only on the home page, above articles.', 'alkimia'),
+        'before_widget' => '<div class="homepage-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h6>',
+        'after_title'   => '</h6>',
+    ));
+    // Footer
     register_sidebar(array(
         'name'          => __('Footer Widget Area', 'alkimia'),
-        'id'            => 'footerbar-1',
+        'id'            => 'sidebar-3',
         'description'   => __('Appears in the footer section of the site.', 'alkimia'),
         'before_widget' => '<div class="footer-widget">',
         'after_widget'  => '</div>',
         'before_title'  => '<h6>',
         'after_title'   => '</h6>',
     ));
+
 }
 if (function_exists('register_sidebar'))
 {

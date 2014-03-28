@@ -14,6 +14,7 @@ get_header();
   <section class="column-group gutters">
     <!-- main content -->
     <main class="large-75 medium-70 small-100">
+      <?php dynamic_sidebar('sidebar-2'); ?>
       <?php
       if (have_posts()):
           $first_post = true;

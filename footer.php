@@ -8,7 +8,7 @@
 ?>
 
   <footer>
-  <?php dynamic_sidebar('footerbar-1'); ?>
+  <?php dynamic_sidebar('sidebar-3'); ?>
   </footer>
 </div> <!-- // main wrapper -->
 <?php wp_footer(); ?>
