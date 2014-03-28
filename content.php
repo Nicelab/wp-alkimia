@@ -19,7 +19,7 @@
         the_title('<h2><a href="'.esc_url(get_permalink()).'" rel="bookmark">', '</a></h2>');
     endif;
     ?>
-    <div>
+    <div class="entry-meta">
       <?php if (is_single()): ?>
         <i class="icon-calendar"></i>&nbsp;<?php the_time(get_option('date_format')); ?>&nbsp;&nbsp;
       <?php else: ?>
@@ -31,7 +31,7 @@
         <?php comments_popup_link(__('Leave a comment', 'alkimia'), __('1 Comment', 'alkimia'), __('% Comments', 'alkimia'));
       endif; ?>
     </div>
-    <div>
+    <div class="entry-meta">
       <i class="icon-sitemap"></i>&nbsp;<?php the_category(', '); ?>
       &nbsp;&nbsp;
       <?php if (has_tag()): ?>

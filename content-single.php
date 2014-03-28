@@ -13,7 +13,7 @@
       <div class="entry-thumbnail"><?php the_post_thumbnail(); ?></div>
     <?php endif; ?>
     <h2><?php the_title(); ?></h2>
-    <div>
+    <div class="entry-meta">
       <i class="icon-calendar"></i>&nbsp;<?php the_time(get_option('date_format')); ?>&nbsp;&nbsp;
       <i class="icon-user"></i>&nbsp;<?php the_author_posts_link(); ?>&nbsp;&nbsp;
       <?php if (!post_password_required() && (comments_open() || get_comments_number())): ?>
@@ -21,7 +21,7 @@
         <?php comments_popup_link(__('Leave a comment', 'alkimia'), __('1 Comment', 'alkimia'), __('% Comments', 'alkimia'));
       endif; ?>
     </div>
-    <div>
+    <div class="entry-meta">
       <i class="icon-sitemap"></i>&nbsp;<?php the_category(', '); ?>
       &nbsp;&nbsp;
       <?php if (has_tag()): ?>
