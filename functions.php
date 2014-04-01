@@ -55,6 +55,7 @@ function alkimia_scripts_styles()
 
     // Add Ink framework JS helpers
     //wp_enqueue_script('ink-core-js', get_template_directory_uri().'/js/ink.min.js', array(), '2.2.1');
+    //wp_enqueue_script('ink-modal-js', get_template_directory_uri().'/js/ink.modal.js', array(), '2.2.1');
     //wp_enqueue_script('ink-carrousel-js', get_template_directory_uri().'/js/ink.carousel.js', array(), '2.2.1');
     //wp_enqueue_script('ink-gallery-js', get_template_directory_uri().'/js/ink.gallery.js', array(), '2.2.1');
     //wp_enqueue_script('ink-autoload-js', get_template_directory_uri().'/js/autoload.js', array(), '2.2.1');
