@@ -54,10 +54,10 @@ function alkimia_scripts_styles()
         wp_enqueue_script('comment-reply');
 
     // Add Ink framework JS helpers
-    //wp_enqueue_script('ink-core-js', get_template_directory_uri().'/js/ink.min.js.js', array(), '2.2.1');
+    //wp_enqueue_script('ink-core-js', get_template_directory_uri().'/js/ink.min.js', array(), '2.2.1');
     //wp_enqueue_script('ink-carrousel-js', get_template_directory_uri().'/js/ink.carousel.js', array(), '2.2.1');
     //wp_enqueue_script('ink-gallery-js', get_template_directory_uri().'/js/ink.gallery.js', array(), '2.2.1');
-    //wp_enqueue_script('ink-autoload-js', get_template_directory_uri().'/js/ink.autoload.js', array(), '2.2.1');
+    //wp_enqueue_script('ink-autoload-js', get_template_directory_uri().'/js/autoload.js', array(), '2.2.1');
 
     // Add Ink framework minified CSS
     wp_enqueue_style('ink-min', get_template_directory_uri().'/css/ink-min.css', array(), '2.2.1');
