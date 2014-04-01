@@ -40,6 +40,7 @@ It's bundled with the InK CSS framework, Ubuntu font, Font Awesome font, normali
 == Changelog ==
 
 = 1.2.0 =
+ * Update to InK 2.3.1
  * Add images and galery styles
  * Add one level sidebar menu style
  * Add a home page widget area

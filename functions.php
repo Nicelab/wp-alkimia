@@ -54,18 +54,17 @@ function alkimia_scripts_styles()
         wp_enqueue_script('comment-reply');
 
     // Add Ink framework JS helpers
-    //wp_enqueue_script('ink-core-js', get_template_directory_uri().'/js/ink.min.js', array(), '2.2.1');
-    //wp_enqueue_script('ink-modal-js', get_template_directory_uri().'/js/ink.modal.js', array(), '2.2.1');
-    //wp_enqueue_script('ink-carrousel-js', get_template_directory_uri().'/js/ink.carousel.js', array(), '2.2.1');
-    //wp_enqueue_script('ink-gallery-js', get_template_directory_uri().'/js/ink.gallery.js', array(), '2.2.1');
-    //wp_enqueue_script('ink-autoload-js', get_template_directory_uri().'/js/autoload.js', array(), '2.2.1');
+    //wp_enqueue_script('ink-core-js', get_template_directory_uri().'/js/ink.min.js', array(), '2.3.1');
+    //wp_enqueue_script('ink-modal-js', get_template_directory_uri().'/js/ink.modal.js', array(), '2.3.1');
+    //wp_enqueue_script('ink-carrousel-js', get_template_directory_uri().'/js/ink.carousel.js', array(), '2.3.1');
+    //wp_enqueue_script('ink-autoload-js', get_template_directory_uri().'/js/autoload.js', array(), '2.3.1');
 
     // Add Ink framework minified CSS
-    wp_enqueue_style('ink-min', get_template_directory_uri().'/css/ink-min.css', array(), '2.2.1');
+    wp_enqueue_style('ink-min', get_template_directory_uri().'/css/ink-min.css', array(), '2.3.1');
     // Add our custom CSS for the Opening Hours plugin (can be changed by child themes)
-    wp_enqueue_style('alkimia-opening-hours-frontend', get_stylesheet_directory_uri().'/css/opening-hours-frontend.css', array(), '1.1.0');
+    wp_enqueue_style('alkimia-opening-hours-frontend', get_stylesheet_directory_uri().'/css/opening-hours-frontend.css', array(), '1.2.0');
     // Loads our main stylesheet.
-    wp_enqueue_style('alkimia', get_stylesheet_uri(), array(), '1.1.0');
+    wp_enqueue_style('alkimia', get_stylesheet_uri(), array(), '1.2.0');
 }
 add_action('wp_enqueue_scripts', 'alkimia_scripts_styles');
 
