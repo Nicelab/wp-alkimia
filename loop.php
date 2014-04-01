@@ -8,6 +8,7 @@
 ?>
 
 <main class="large-75 medium-70 small-100">
+  <?php get_template_part('breadcrumb'); ?>
   <?php
   if (have_posts()):
       $first_post = true;
