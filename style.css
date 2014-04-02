@@ -51,6 +51,7 @@ var {
     font-family: Ubuntu_monospaced, 'Courier New', monospace;;
 }
 
+
 /* Main
 -----------------------------------------------------------------------------*/
 
@@ -88,6 +89,7 @@ iframe {
     max-width: 100%;
 }
 
+
 /* Header
 -----------------------------------------------------------------------------*/
 #header {
@@ -98,6 +100,7 @@ iframe {
 #header nav {
     margin-bottom: 2.5em;
 }
+
 
 /* Horizontal menus (in top menu)
 -----------------------------------------------------------------------------*/
@@ -315,6 +318,7 @@ article footer {
     padding-bottom: 0;
 }
 
+
 /* Sidebar
 -----------------------------------------------------------------------------*/
 aside ul {
@@ -336,6 +340,7 @@ aside h6 {
     color: #fff;
     border-radius: 5px;
 }
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
@@ -366,6 +371,7 @@ footer .footer-widget {
     padding-top: 0.6em;
     padding-bottom: 0.6em;
 }
+
 
 /* Comments
 -----------------------------------------------------------------------------*/
@@ -465,6 +471,7 @@ footer .footer-widget {
 .bypostauthor .comment-meta  {
     background-color: #DAEFFF !important;
 }
+
 
 /* Buttons
 -----------------------------------------------------------------------------*/
