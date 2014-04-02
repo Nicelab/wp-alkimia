@@ -477,10 +477,10 @@ footer .footer-widget {
 -----------------------------------------------------------------------------*/
 /* Remove the gradiant from InK */
 .ink-button.flat {
-    background: #eee;
+    background: #eeeeee;
 }
 .ink-button.flat:hover {
-    background: #fff;
+    background: #ffffff;
 }
 
 
