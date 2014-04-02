@@ -487,9 +487,9 @@ footer .footer-widget {
 /* Images
 -----------------------------------------------------------------------------*/
 /* aligned images (in posts, pages, etc) */
-img.alignleft,
-img.alignright,
-img.aligncenter {
+article img.alignleft,
+article img.alignright,
+article img.aligncenter {
     border-radius:5px;
     box-shadow: 0px 0px 2px #888;
     padding: 6px;
@@ -504,6 +504,7 @@ img.aligncenter {
 
 .wp-caption-text {
     font-size: 0.80em;
+    margin: 0;
     padding: 3px;
     text-align: center;
 }
