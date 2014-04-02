@@ -53,16 +53,6 @@ var {
 
 /* Main
 -----------------------------------------------------------------------------*/
-/* stiky post */
-.sticky {
-    padding: 0.5em;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-}
-
-.sticky .entry-meta {
-    display: none;
-}
 
 /* alligment */
 .alignleft {
@@ -309,6 +299,21 @@ article footer {
     font-size: 0.85em;
 }
 
+/* stiky post */
+.sticky {
+    padding: 0.5em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+/* entry-meta stuff is hidden on sticky post */
+.sticky .entry-meta {
+    display: none;
+}
+
+.sticky header {
+    padding-bottom: 0;
+}
 
 /* Sidebar
 -----------------------------------------------------------------------------*/
@@ -485,7 +490,6 @@ img.aligncenter {
 
 /* image captions */
 .wp-caption {
-    /* border: 1px solid #fff; */
     border-radius: 5px;
     box-shadow: 0px 0px 2px #888;
     padding: 6px 6px 0 6px;
