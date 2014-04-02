@@ -7,5 +7,109 @@
 /* Images
 -----------------------------------------------------------------------------*/
 
+.woocommerce #content div.product div.images img,
+.woocommerce div.product div.images img,
+.woocommerce-page #content div.product div.images img,
+.woocommerce-page div.product div.images img
+{
+  box-shadow: 0px 0px 2px #888;
+  -webkit-box-shadow: 0px 0px 2px #888;
+  border-radius:5px;
+  padding: 6px;
+}
+
+
+.woocommerce ul.products li.product a img,
+.woocommerce-page ul.products li.product a img
+{
+margin:0 0 8px;
+  box-shadow: 0px 0px 2px #888;
+  -webkit-box-shadow: 0px 0px 2px #888;
+  border-radius:5px;
+  padding: 6px;
+}
+
+
 /* Buttons
 -----------------------------------------------------------------------------*/
+.woocommerce #content input.button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,.woocommerce button.button,
+.woocommerce input.button,.woocommerce-page #content input.button,
+.woocommerce-page #respond input#submit,.woocommerce-page a.button,
+.woocommerce-page button.button,.woocommerce-page input.button
+{
+    font-size: 15px;
+    padding: 7px 12px;
+    font-weight: bold;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    color:  #333333;
+    text-shadow: 0 0.09em 0.03em #ffffff;
+    border: 1px solid #ccc;
+    background: #eeeeee;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset;
+}
+
+.woocommerce #content input.button:hover,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce-page #content input.button:hover,
+.woocommerce-page #respond input#submit:hover,
+.woocommerce-page a.button:hover,
+.woocommerce-page button.button:hover,
+.woocommerce-page input.button:hover
+{
+    background: #ffffff;
+}
+
+.woocommerce #content input.button:active,
+.woocommerce #respond input#submit:active,
+.woocommerce a.button:active,.woocommerce button.button:active,
+.woocommerce input.button:active,.woocommerce-page #content input.button:active,
+.woocommerce-page #respond input#submit:active,.woocommerce-page a.button:active,
+.woocommerce-page button.button:active,.woocommerce-page input.button:active
+{
+    background: #dcdcdc;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dcdcdc', endColorstr='#ffffff');
+    background: -moz-linear-gradient(top, #dcdcdc 0%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dcdcdc), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(top, #dcdcdc 0%, #ffffff 100%);
+    background: -o-linear-gradient(top, #dcdcdc 0%, #ffffff 100%);
+    background: -ms-linear-gradient(top, #dcdcdc 0%, #ffffff 100%);
+    background: linear-gradient(to bottom, #dcdcdc 0%, #ffffff 100%);
+    -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25) inset;
+    -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25) inset;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.25) inset;
+}
+
+/* blue button */
+.woocommerce #content input.button.alt,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,.woocommerce button.button.alt,
+.woocommerce input.button.alt,
+.woocommerce-page #content input.button.alt,
+.woocommerce-page #respond input#submit.alt,
+.woocommerce-page a.button.alt,.woocommerce-page button.button.alt,
+.woocommerce-page input.button.alt
+{
+    background: #0f75da;
+}
+
+.woocommerce #content input.button.alt:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-page #content input.button.alt:hover,
+.woocommerce-page #respond input#submit.alt:hover,
+.woocommerce-page a.button.alt:hover,
+.woocommerce-page button.button.alt:hover,
+.woocommerce-page input.button.alt:hover
+{
+    background: #1d87ef;
+}
