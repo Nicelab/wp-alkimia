@@ -232,7 +232,6 @@ iframe {
     border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 0;
-    margin: 0;
 }
 
 .right-widget ul.menu li {
@@ -302,6 +301,13 @@ article footer {
     font-size: 0.85em;
 }
 
+/* line between articles */
+article {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
 /* stiky post */
 .sticky {
     padding: 0.5em;
@@ -335,7 +341,8 @@ aside .right-widget {
 aside h6 {
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
-    padding: 5px 10px 5px 10px;
+    padding: 7px 10px 7px 10px;
+    margin-bottom: 0.7em;
     background-color: #4C99E6;
     color: #fff;
     border-radius: 5px;
@@ -378,6 +385,12 @@ footer .footer-widget {
 #comments, #respond, #closed {
     margin-top: 2.5em;
     border-top: 1px solid #eee;
+}
+
+#comments article, #respond article, #closed article {
+    border-bottom: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 #comments ol {
