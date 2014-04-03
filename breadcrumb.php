@@ -7,13 +7,10 @@
  */
 ?>
 
-<nav class="ink-navigation">
+<?php if(function_exists('bcn_display')): ?>
+<nav class="ink-navigation half-bottom-space">
   <ul class="breadcrumbs rounded shadowed">
-  <?php
-  if(function_exists('bcn_display')):
-      bcn_display_list();
-  endif;
-  ?>
+  <?php bcn_display_list(); ?>
   </ul>
 </nav>
-
+<?php endif; ?>
