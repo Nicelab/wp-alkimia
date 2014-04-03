@@ -113,3 +113,130 @@ margin:0 0 8px;
 {
     background: #1d87ef;
 }
+
+/* Messages
+-----------------------------------------------------------------------------*/
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message,
+.woocommerce-page .woocommerce-error,
+.woocommerce-page .woocommerce-info,
+.woocommerce-page .woocommerce-message
+{
+    padding: 1em;!important;
+    margin: 1em 0!important;
+    background:#fefbf3;
+    color:#555555;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+.woocommerce .woocommerce-message,
+.woocommerce-page .woocommerce-message
+{
+    border-top:3px solid #55b11a;
+}
+
+.woocommerce .woocommerce-message:before,
+.woocommerce-page .woocommerce-message:before
+{
+    background-color:#55b11a;
+    font-family: FontAwesome;
+    content:"\f00c";
+
+}
+
+.woocommerce .woocommerce-info,
+.woocommerce-page .woocommerce-info
+{
+    border-top:3px solid #2c8ef0;
+}
+
+.woocommerce .woocommerce-info:before,
+.woocommerce-page .woocommerce-info:before
+{
+    background-color:  #2c8ef0;
+    font-family: FontAwesome;
+    content:"\f129";
+}
+
+.woocommerce .woocommerce-error,
+.woocommerce-page .woocommerce-error
+{
+    border-top:3px solid #ee3838;
+}
+
+.woocommerce .woocommerce-error:before,
+.woocommerce-page .woocommerce-error:before
+{
+    background-color:#ee3838;
+    font-family: FontAwesome;
+    content:"\f00d";
+}
+
+/* forward button */
+.wc-forward a:after,
+.wc-forward:after
+{
+    font-size: 1em;
+    font-family: FontAwesome;
+    content:"\f061";
+}
+
+
+/* Shop cart
+-----------------------------------------------------------------------------*/
+/* Tables */
+.woocommerce table.shop_table,
+.woocommerce-page table.shop_table
+{
+    border:#bbbbbb 1px solid;
+    -webkit-border-radius:4px;
+    border-radius:4px
+}
+
+.woocommerce table.shop_table td,
+.woocommerce-page table.shop_table td
+{
+    border-top:#bbbbbb 1px solid;
+}
+
+.woocommerce .cart-collaterals .cart_totals tr td,
+.woocommerce .cart-collaterals .cart_totals tr th,
+.woocommerce-page .cart-collaterals .cart_totals tr td,
+.woocommerce-page .cart-collaterals .cart_totals tr th
+{
+    border-top:#bbbbbb 1px solid;
+}
+
+/* Remove cross */
+.woocommerce #content table.cart a.remove,
+.woocommerce table.cart a.remove,.woocommerce-page #content table.cart a.remove,
+.woocommerce-page table.cart a.remove{
+    color:#ee3838;
+}
+
+.woocommerce #content table.cart a.remove:hover,
+.woocommerce table.cart a.remove:hover,.woocommerce-page #content table.cart a.remove:hover,
+.woocommerce-page table.cart a.remove:hover
+{
+    background-color:#ee3838;
+}
+
+/* Shiping calulator link */
+
+a.shipping-calculator-button {
+    font-size: 0.8em;
+
+}
+a.shipping-calculator-button:hover {
+  text-decoration: none;
+}
+
+.woocommerce .cart-collaterals .shipping_calculator .shipping-calculator-button:after,
+.woocommerce-page .cart-collaterals .shipping_calculator .shipping-calculator-button:after
+{
+  font-family: FontAwesome;
+  content:"\f063";
+}
+
