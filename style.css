@@ -690,3 +690,8 @@ img {
     max-height: none;
 }
 
+/* See https://github.com/sapo/Ink/issues/321 */
+.ink-form .control-group .control.prepend-button .ink-button,
+.ink-form .control-group .control.append-button .ink-button {
+    min-height: 2.32em;
+}
