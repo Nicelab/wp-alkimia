@@ -3,6 +3,5 @@
 - improve styles for aside, status and chat custom post types
 - add support for the hackerspace module custom post types
 - replace <section class="column-group gutters"> by <div> when InK bewaviour is corrected
-- add lightbox for image display
 - make the comments buttons & links the same than all buttons
 - add a hide/show, a modal or an acordeon system to the comment form
