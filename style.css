@@ -89,11 +89,15 @@ iframe {
     max-width: 100%;
 }
 
+/* background collor */
+#main-wrapper {
+    background-color: #fff;
+}
 
 /* Header
 -----------------------------------------------------------------------------*/
 #header {
-    margin-top: 1em;
+    padding-top: 1em;
 }
 
 /* Top nav bar */
@@ -318,6 +322,13 @@ article {
 /* entry-meta stuff is hidden on sticky post */
 .sticky .entry-meta {
     display: none;
+}
+
+/* no image shadox in sticky post */
+.sticky img.alignleft,
+.sticky img.alignright,
+.sticky img.aligncenter {
+    box-shadow: 0px 0px 0px;
 }
 
 .sticky header {

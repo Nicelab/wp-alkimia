@@ -8,7 +8,7 @@
 
 
 if (!isset($content_width))
-    $content_width = 1200;
+    $content_width = 850;
 
 // Main setup
 function alkimia_setup()

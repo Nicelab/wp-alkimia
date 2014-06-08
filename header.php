@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
 <!-- main wrapper -->
-<div class="ink-grid">
+<div id="main-wrapper" class="ink-grid">
   <!-- top header and menu -->
   <header id="header">
     <?php if (get_header_image()) : ?>
