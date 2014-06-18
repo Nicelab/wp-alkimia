@@ -16,7 +16,7 @@
     <?php if (has_post_thumbnail()): ?>
       <div class="entry-thumbnail"><?php the_post_thumbnail(); ?></div>
     <?php endif; ?>
-    <h2><?php the_title(); ?></h2>
+    <h2 class="entry-title"><?php the_title(); ?></h2>
   </header>
   <section>
     <?php the_content(); ?>

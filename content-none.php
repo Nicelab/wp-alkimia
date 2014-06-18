@@ -9,7 +9,7 @@
 
 <article id="none">
   <header>
-    <h1><?php _e('Nothing Found', 'alkimia'); ?></h1>
+    <h2 class="entry-title"><?php _e('Nothing Found', 'alkimia'); ?></h2>
   </header>
   <section>
     <p><?php _e('It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'alkimia'); ?></p>
